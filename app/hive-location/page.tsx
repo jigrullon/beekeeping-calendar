@@ -30,7 +30,9 @@ export default function HiveLocationPage() {
               <AlertTriangle className="h-4 w-4" />
               <AlertDescription>
                 <strong>Important:</strong> Always check your local zoning laws and regulations before placing beehives. 
-                Some areas have restrictions on hive placement, distance from property lines, or require permits. Be sure to check with your homeeowner's association as well if you have one. 
+                Some areas have restrictions on hive placement, distance from property lines, or require permits. Be sure 
+                to check with your homeeowner's association as well if you have one. Never hurts to bribe skeptical neighbors 
+                with honey either.
               </AlertDescription>
             </Alert>
 
@@ -80,7 +82,7 @@ export default function HiveLocationPage() {
                   <div className="space-y-2">
                     <h4 className="font-semibold">Natural Windbreaks</h4>
                     <p className="text-sm text-muted-foreground">
-                      Position hives behind natural windbreaks like hedges, trees, or buildings. This helps 
+                      Place hives behind natural windbreaks like hedges, trees, or buildings. This helps 
                       bees conserve energy and maintain hive temperature.
                     </p>
                   </div>
@@ -121,7 +123,8 @@ export default function HiveLocationPage() {
                     <h4 className="font-semibold">Providing Water</h4>
                     <p className="text-sm text-muted-foreground">
                       If natural sources aren't available, provide shallow water dishes with rocks or 
-                      floating objects for bees to land on safely. You want these close, but not too close to the hives. Make sure to change the water frequently. 
+                      floating objects for bees to land on safely. You want these close, but not too close to the hives. 
+                      Make sure to change the water frequently. 
                     </p>
                   </div>
                   <div className="space-y-2">
@@ -144,13 +147,6 @@ export default function HiveLocationPage() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="space-y-2">
-                    <h4 className="font-semibold">Diverse Plant Life</h4>
-                    <p className="text-sm text-muted-foreground">
-                      Choose locations with diverse flowering plants, trees, and crops that bloom 
-                      throughout the season to provide continuous forage.
-                    </p>
-                  </div>
-                  <div className="space-y-2">
                     <h4 className="font-semibold">Seasonal Blooms</h4>
                     <p className="text-sm text-muted-foreground">
                       Ensure there are early spring blooms (dandelions, fruit trees) and late fall 
@@ -158,10 +154,18 @@ export default function HiveLocationPage() {
                     </p>
                   </div>
                   <div className="space-y-2">
+                    <h4 className="font-semibold">Diverse Plant Life</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Choose a diverse array of flowering plants, trees, and crops that bloom 
+                      throughout the season to provide continuous forage. The dearth is hard enough as 
+                      it is, so don't make it harder on yourself by not providing enough forage to get through the season.
+                    </p>
+                  </div>
+                  <div className="space-y-2">
                     <h4 className="font-semibold">Pesticide-Free Zones</h4>
                     <p className="text-sm text-muted-foreground">
                       Avoid areas where pesticides are regularly used, such as heavily sprayed 
-                      agricultural fields or chemically treated lawns.
+                      agricultural fields or chemically treated lawns. 
                     </p>
                   </div>
                 </CardContent>
@@ -194,7 +198,7 @@ export default function HiveLocationPage() {
                     <h4 className="font-semibold">Easy Access</h4>
                     <p className="text-sm text-muted-foreground">
                       Ensure you can easily access your hives for inspections and maintenance, 
-                      especially during inclement weather.
+                      especially during inclement weather. Consider placing them at your height.
                     </p>
                   </div>
                 </CardContent>
@@ -213,14 +217,14 @@ export default function HiveLocationPage() {
                     <h4 className="font-semibold">Level Ground</h4>
                     <p className="text-sm text-muted-foreground">
                       Ensure the ground is level and well-drained. Bees prefer slightly elevated 
-                      locations that don't collect water.
+                      locations that don't collect water. If there must be a slope, make sure it is toward the entrance.
                     </p>
                   </div>
                   <div className="space-y-2">
                     <h4 className="font-semibold">Vegetation Control</h4>
                     <p className="text-sm text-muted-foreground">
                       Keep grass and vegetation short around hives to prevent moisture buildup 
-                      and make inspections easier.
+                      and make inspections easier. Also to stop spiders from creating webs in the bees' flight paths.
                     </p>
                   </div>
                   <div className="space-y-2">
