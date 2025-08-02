@@ -32,6 +32,9 @@ export default function PlantingGuidePage() {
               <AlertDescription>
                 <strong>Pro Tip:</strong> Many of these plants may already be growing on your property! Take a walk around 
                 your yard and look for these flowers before planting new ones. You might be pleasantly surprised by what you find.
+                <br />
+                <br />
+                <strong>Pro Tip:</strong> Save money by skipping the grass spraying service, helping your bees and your wallet!
               </AlertDescription>
             </Alert>
 
@@ -221,7 +224,8 @@ export default function PlantingGuidePage() {
                     <CardContent className="space-y-2">
                       <p className="text-sm text-muted-foreground">
                         Clover is excellent for bees and improves soil nitrogen. White clover can be 
-                        used as a ground cover in lawns. Red clover can be hit and miss. 
+                        used as a ground cover in lawns. Red (pink) clover can be hit and miss as the nectar is not as good. They do like
+                        crimson clover though.
                       </p>
                       <div className="flex items-center gap-2 text-xs text-muted-foreground">
                         <Sun className="h-3 w-3" />
