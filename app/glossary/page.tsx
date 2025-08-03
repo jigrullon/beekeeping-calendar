@@ -37,7 +37,7 @@ export default function GlossaryPage() {
             <div className="space-y-8">
               {/* Basic Bee Biology */}
               <div className="space-y-4">
-                <h2 className="text-2xl font-bold text-amber-700">🐝 Basic Bee Biology</h2>
+                <h2 className="text-2xl font-bold text-amber-700">Basic Bee Biology</h2>
                 
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                   <Card>
@@ -122,18 +122,18 @@ export default function GlossaryPage() {
 
               {/* Hive Components */}
               <div className="space-y-4">
-                <h2 className="text-2xl font-bold text-blue-700">🏠 Hive Components</h2>
+                <h2 className="text-2xl font-bold text-blue-700">Hive Components</h2>
                 
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                   <Card>
                     <CardHeader className="pb-3">
-                      <CardTitle className="text-lg">Hive Body</CardTitle>
+                      <CardTitle className="text-lg">Super</CardTitle>
                       <CardDescription>Main box of the hive</CardDescription>
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
-                        The wooden box that contains frames. Deep hive bodies are used for brood, medium boxes 
-                        can be used for brood or honey. Standard size is 10-frame or 8-frame.
+                        The wooden box that contains frames. Deep supers are used for brood. Medium boxes 
+                        can be used for brood or honey. Standard sizes are 10-frame or 8-frame.
                       </p>
                     </CardContent>
                   </Card>
@@ -158,7 +158,7 @@ export default function GlossaryPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
-                        Hexagonal wax cells built by bees. Used for storing honey, pollen, and raising brood. 
+                        Hexagonal wax cells built by bees. Used for storing honey, bee bread, and raising brood. 
                         New comb is white, old comb becomes dark brown.
                       </p>
                     </CardContent>
@@ -166,13 +166,13 @@ export default function GlossaryPage() {
 
                   <Card>
                     <CardHeader className="pb-3">
-                      <CardTitle className="text-lg">Super</CardTitle>
-                      <CardDescription>Honey storage box</CardDescription>
+                      <CardTitle className="text-lg">Bottom Board</CardTitle>
+                      <CardDescription>Bottom of the hive</CardDescription>
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
-                        Shallow hive body added on top for honey storage. Usually medium or shallow depth. 
-                        Removed for honey harvest.
+                        Can be screened or solid. Used to protect bottom of the hive from rain and snow. Screened provides flexibility 
+                        allowing you to leave open for ventilation in the summer, and closed in the winter.
                       </p>
                     </CardContent>
                   </Card>
@@ -207,7 +207,7 @@ export default function GlossaryPage() {
 
               {/* Beekeeping Terms */}
               <div className="space-y-4">
-                <h2 className="text-2xl font-bold text-green-700">🔧 Beekeeping Terms</h2>
+                <h2 className="text-2xl font-bold text-green-700">Beekeeping Terms</h2>
                 
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                   <Card>
@@ -244,7 +244,7 @@ export default function GlossaryPage() {
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
                         When a colony splits and half the bees leave with the old queen to start a new colony. 
-                        Usually happens in spring when hives are crowded.
+                        Usually happens in spring when hives are crowded. Also a great way to expand your apiary!
                       </p>
                     </CardContent>
                   </Card>
@@ -270,7 +270,7 @@ export default function GlossaryPage() {
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
                         A screened box containing 2-3 pounds of worker bees and a queen in a separate cage. 
-                        Shipped by mail and installed in a new hive.
+                        Shipped by mail and installed in a new hive. Nucs are a better way to start beekeeping.
                       </p>
                     </CardContent>
                   </Card>
@@ -283,7 +283,7 @@ export default function GlossaryPage() {
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
                         Wax comb that bees have already built out. Highly valuable because bees don't need to 
-                        spend energy building new comb.
+                        spend energy building new comb. Focus on this your first year!
                       </p>
                     </CardContent>
                   </Card>
@@ -292,7 +292,7 @@ export default function GlossaryPage() {
 
               {/* Essential Tools */}
               <div className="space-y-4">
-                <h2 className="text-2xl font-bold text-purple-700">🛠️ Essential Tools</h2>
+                <h2 className="text-2xl font-bold text-purple-700">Essential Tools</h2>
                 
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                   <Card>
@@ -387,7 +387,7 @@ export default function GlossaryPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
-                        Colony without a laying queen. Workers may lay unfertilized eggs (drones only). 
+                        Colony without a laying queen. Workers may lay unfertilized eggs (which make drones). 
                         Colony will die unless requeened or allowed to raise a new queen.
                       </p>
                     </CardContent>
@@ -427,7 +427,7 @@ export default function GlossaryPage() {
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
                         Brown streaks on hive walls and frames. Usually caused by poor quality food, 
-                        moisture, or disease. Can spread disease.
+                        moisture, or disease. Can spread disease. Bees are typically very clean so this is a sign of a big problem.
                       </p>
                     </CardContent>
                   </Card>
@@ -440,7 +440,7 @@ export default function GlossaryPage() {
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
                         When bees from other colonies try to steal honey from a weak hive. Can kill 
-                        the robbed colony. Reduce entrance to prevent.
+                        the robbed colony. Reduce entrance to prevent. 
                       </p>
                     </CardContent>
                   </Card>
@@ -489,7 +489,7 @@ export default function GlossaryPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
-                      <span>Always have a spare queen or queen cells ready</span>
+                      <span>Dont worry about honey the first year</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
