@@ -49,7 +49,7 @@ export default function PlantingGuidePage() {
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                   <Card>
                     <CardHeader className="pb-3">
-                      <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden">
+                      <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
                           src="/dandelion.jpg"
                           alt="Dandelion flower"
@@ -57,6 +57,11 @@ export default function PlantingGuidePage() {
                           height={128}
                           className="w-full h-full object-cover"
                         />
+                        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-200 flex items-center justify-center">
+                          <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                            Credit: Empress of Dirt
+                          </span>
+                        </div>
                       </div>
                       <CardTitle className="text-lg">Dandelions</CardTitle>
                       <CardDescription>Often considered weeds, but bees love them!</CardDescription>
@@ -79,7 +84,7 @@ export default function PlantingGuidePage() {
 
                   <Card>
                     <CardHeader className="pb-3">
-                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden">
+                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
                           src="/appletree.jpg"
                           alt="Apple tree blossoms"
@@ -87,6 +92,11 @@ export default function PlantingGuidePage() {
                           height={128}
                           className="w-full h-full object-cover"
                         />
+                        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-200 flex items-center justify-center">
+                          <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                            Credit: Bee Life
+                          </span>
+                        </div>
                       </div>
                       <CardTitle className="text-lg">Fruit Trees</CardTitle>
                       <CardDescription>Apple, cherry, plum, peach blossoms</CardDescription>
@@ -109,7 +119,7 @@ export default function PlantingGuidePage() {
 
                   <Card>
                     <CardHeader className="pb-3">
-                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden">
+                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
                           src="/crocus.jpg"
                           alt="Crocus flower"
@@ -117,6 +127,11 @@ export default function PlantingGuidePage() {
                           height={128}
                           className="w-full h-full object-cover"
                         />
+                        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-200 flex items-center justify-center">
+                          <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                            Credit: Dyck Arboretum
+                          </span>
+                        </div>
                       </div>
                       <CardTitle className="text-lg">Crocus</CardTitle>
                       <CardDescription>Early spring bulbs</CardDescription>
@@ -149,7 +164,7 @@ export default function PlantingGuidePage() {
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                   <Card>
                     <CardHeader className="pb-3">
-                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden">
+                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
                           src="/lavender.jpg"
                           alt="Lavender flower"
@@ -157,6 +172,11 @@ export default function PlantingGuidePage() {
                           height={128}
                           className="w-full h-full object-cover"
                         />
+                        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-200 flex items-center justify-center">
+                          <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                            Credit: iStock
+                          </span>
+                        </div>
                       </div>
                       <CardTitle className="text-lg">Lavender</CardTitle>
                       <CardDescription>Fragrant and bee-friendly</CardDescription>
@@ -179,7 +199,7 @@ export default function PlantingGuidePage() {
 
                   <Card>
                     <CardHeader className="pb-3">
-                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden">
+                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
                           src="/sunflower.jpg"
                           alt="Sunflower"
@@ -187,6 +207,11 @@ export default function PlantingGuidePage() {
                           height={128}
                           className="w-full h-full object-cover"
                         />
+                        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-200 flex items-center justify-center">
+                          <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                            Credit: The Honey and Bee Connection
+                          </span>
+                        </div>
                       </div>
                       <CardTitle className="text-lg">Sunflowers</CardTitle>
                       <CardDescription>Giant bee magnets</CardDescription>
@@ -209,7 +234,7 @@ export default function PlantingGuidePage() {
 
                   <Card>
                     <CardHeader className="pb-3">
-                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden">
+                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
                           src="/clover.jpg"
                           alt="Clover flower"
@@ -217,6 +242,11 @@ export default function PlantingGuidePage() {
                           height={128}
                           className="w-full h-full object-cover"
                         />
+                        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-200 flex items-center justify-center">
+                          <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                            Credit: Buzz About Bees
+                          </span>
+                        </div>
                       </div>
                       <CardTitle className="text-lg">Clover</CardTitle>
                       <CardDescription>White clover</CardDescription>
@@ -250,7 +280,7 @@ export default function PlantingGuidePage() {
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                   <Card>
                     <CardHeader className="pb-3">
-                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden">
+                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
                           src="/basil.jpg"
                           alt="Basil flower"
@@ -258,6 +288,11 @@ export default function PlantingGuidePage() {
                           height={128}
                           className="w-full h-full object-cover"
                         />
+                        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-200 flex items-center justify-center">
+                          <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                            Credit: Shutterstock
+                          </span>
+                        </div>
                       </div>
                       <CardTitle className="text-lg">Basil & Herbs</CardTitle>
                       <CardDescription>Mint, oregano, thyme, sage</CardDescription>
@@ -280,7 +315,7 @@ export default function PlantingGuidePage() {
 
                   <Card>
                     <CardHeader className="pb-3">
-                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden">
+                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
                           src="/blackeyedsusan.jpg"
                           alt="Black eyed susan flower"
@@ -288,6 +323,11 @@ export default function PlantingGuidePage() {
                           height={128}
                           className="w-full h-full object-cover"
                         />
+                        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-200 flex items-center justify-center">
+                          <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                            Credit: GlaszArt
+                          </span>
+                        </div>
                       </div>
                       <CardTitle className="text-lg">Black-Eyed Susan</CardTitle>
                       <CardDescription>Drought-tolerant perennial</CardDescription>
@@ -310,7 +350,7 @@ export default function PlantingGuidePage() {
 
                   <Card>
                     <CardHeader className="pb-3">
-                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden">
+                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
                           src="/zinnia.jpg"
                           alt="Zinnia flower"
@@ -318,6 +358,11 @@ export default function PlantingGuidePage() {
                           height={128}
                           className="w-full h-full object-cover"
                         />
+                        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-200 flex items-center justify-center">
+                          <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                            Credit: UC Agriculture and Natural Resources
+                          </span>
+                        </div>
                       </div>
                       <CardTitle className="text-lg">Zinnias</CardTitle>
                       <CardDescription>Colorful annual flowers</CardDescription>
@@ -350,7 +395,7 @@ export default function PlantingGuidePage() {
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                   <Card>
                     <CardHeader className="pb-3">
-                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden">
+                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
                           src="/goldenrod.jpg"
                           alt="Goldenrod flower"
@@ -358,6 +403,11 @@ export default function PlantingGuidePage() {
                           height={128}
                           className="w-full h-full object-cover"
                         />
+                        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-200 flex items-center justify-center">
+                          <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                            Credit: Smithsonian Insider
+                          </span>
+                        </div>
                       </div>
                       <CardTitle className="text-lg">Goldenrod</CardTitle>
                       <CardDescription>Essential fall food source</CardDescription>
@@ -380,7 +430,7 @@ export default function PlantingGuidePage() {
 
                   <Card>
                     <CardHeader className="pb-3">
-                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden">
+                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
                           src="/aster.jpg"
                           alt="Aster flower"
@@ -388,6 +438,11 @@ export default function PlantingGuidePage() {
                           height={128}
                           className="w-full h-full object-cover"
                         />
+                        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-200 flex items-center justify-center">
+                          <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                            Credit: BeesWiki
+                          </span>
+                        </div>
                       </div>
                       <CardTitle className="text-lg">Asters</CardTitle>
                       <CardDescription>Late-blooming perennials</CardDescription>
@@ -410,7 +465,7 @@ export default function PlantingGuidePage() {
 
                   <Card>
                     <CardHeader className="pb-3">
-                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden">
+                    <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
                           src="/sedum.jpg"
                           alt="Sedum flower"
@@ -418,6 +473,11 @@ export default function PlantingGuidePage() {
                           height={128}
                           className="w-full h-full object-cover"
                         />
+                        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-200 flex items-center justify-center">
+                          <span className="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                            Credit: Back Yard Biology
+                          </span>
+                        </div>
                       </div>
                       <CardTitle className="text-lg">Sedum</CardTitle>
                       <CardDescription>Stonecrop varieties</CardDescription>
