@@ -154,7 +154,7 @@ export default function TimeCommitmentPage() {
                       </div>
                       <div className="flex items-center gap-2 text-xs text-muted-foreground">
                         <Calendar className="h-3 w-3" />
-                        <span>4-6 inspections per month</span>
+                        <span>3-4 inspections per month</span>
                       </div>
                     </CardContent>
                   </Card>
@@ -175,7 +175,7 @@ export default function TimeCommitmentPage() {
                       </div>
                       <div className="flex items-center gap-2 text-xs text-muted-foreground">
                         <Calendar className="h-3 w-3" />
-                        <span>1-2 checks per month</span>
+                        <span>0-1 checks per month</span>
                       </div>
                     </CardContent>
                   </Card>
@@ -331,7 +331,7 @@ export default function TimeCommitmentPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
-                        Check every 5-7 days for queen cells and overcrowding. Add supers before they run out of space. This 
+                        Check for queen cells and overcrowding. Add supers before they run out of space. This 
                         is for swarm prevention and let's you control colony expansion. 
                       </p>
                       <div className="flex items-center gap-2 text-xs text-muted-foreground mt-2">
@@ -364,7 +364,7 @@ export default function TimeCommitmentPage() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
-                        Check every 3-5 days for signs of disease. Early detection is crucial for treatment success. They can easily pick something up
+                        Check for signs of disease. Early detection is crucial for treatment success. They can easily pick something up
                         from a neighbor's yard and bring it back to your hive.
                       </p>
                       <div className="flex items-center gap-2 text-xs text-muted-foreground mt-2">
