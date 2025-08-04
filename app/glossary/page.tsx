@@ -81,19 +81,6 @@ export default function GlossaryPage() {
 
                   <Card>
                     <CardHeader className="pb-3">
-                      <CardTitle className="text-lg">Brood</CardTitle>
-                      <CardDescription>Developing bees</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-sm text-muted-foreground">
-                        Eggs, larvae, and pupae in the hive. Brood is raised in hexagonal cells and requires constant 
-                        temperature (93-95°F) to develop properly.
-                      </p>
-                    </CardContent>
-                  </Card>
-
-                  <Card>
-                    <CardHeader className="pb-3">
                       <CardTitle className="text-lg">Nectar</CardTitle>
                       <CardDescription>Flower juice that becomes honey</CardDescription>
                     </CardHeader>
@@ -114,6 +101,176 @@ export default function GlossaryPage() {
                       <p className="text-sm text-muted-foreground">
                         Yellow/orange powder from flowers that provides protein for developing brood. Bees collect it 
                         in "pollen baskets" on their hind legs.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader className="pb-3">
+                      <CardTitle className="text-lg">Bee Bread</CardTitle>
+                      <CardDescription>Fermented pollen food for bees</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        A mixture of pollen, nectar, and bee secretions packed into cells and fermented by beneficial microbes. Bee bread is the main protein food for developing larvae and young adult bees.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader className="pb-3">
+                      <CardTitle className="text-lg group relative cursor-help">
+                        Eggs
+                        <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none z-10">
+                          <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-2">
+                            <img 
+                              src="/bee-eggs.jpg" 
+                              alt="Bee eggs in cells"
+                              className="w-48 h-32 object-cover rounded"
+                            />
+                            <p className="text-xs text-gray-600 mt-1 text-center">Bee eggs in cells</p>
+                          </div>
+                        </div>
+                      </CardTitle>
+                      <CardDescription>First stage of bee development</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        Tiny, white, rice-shaped objects laid by the queen in the bottom of cells. Eggs hatch into larvae after about 3 days.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader className="pb-3">
+                      <CardTitle className="text-lg group relative cursor-help">
+                        Larvae
+                        <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none z-10">
+                          <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-2">
+                            <img 
+                              src="/bee-larvae.jpg" 
+                              alt="Bee larvae in cells"
+                              className="w-48 h-32 object-cover rounded"
+                            />
+                            <p className="text-xs text-gray-600 mt-1 text-center">Bee larvae in cells</p>
+                          </div>
+                        </div>
+                      </CardTitle>
+                      <CardDescription>Grub-like bee babies</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        After hatching from eggs, larvae are fed by nurse bees. They look like small white grubs curled in the bottom of cells. Larvae are capped with wax before pupating, making capped brood.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader className="pb-3">
+                      <CardTitle className="text-lg group relative cursor-help">
+                        Brood
+                        <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none z-10">
+                          <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-2">
+                            <img 
+                              src="/bee-brood.jpg" 
+                              alt="Bee brood pattern"
+                              className="w-48 h-32 object-cover rounded"
+                            />
+                            <p className="text-xs text-gray-600 mt-1 text-center">Bee brood pattern</p>
+                          </div>
+                        </div>
+                      </CardTitle>
+                      <CardDescription>Developing bees</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        Eggs, larvae, and pupae in the hive. Brood is raised in hexagonal cells and requires constant 
+                        temperature (93-95°F) to develop properly.
+                      </p>
+                    </CardContent>
+                  </Card>
+                </div>
+              </div>
+
+              {/* Hive Threats */}
+              <div className="space-y-4">
+                <h2 className="text-2xl font-bold text-red-700">⚠️ Hive Threats</h2>
+                
+                <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                  <Card>
+                    <CardHeader className="pb-3">
+                      <CardTitle className="text-lg">Varroa Mites</CardTitle>
+                      <CardDescription>Most serious bee pest</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        Tiny parasitic mites that feed on bee blood and spread viruses. They reproduce in brood cells 
+                        and can kill colonies if left untreated. Regular monitoring and treatment is essential.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader className="pb-3">
+                      <CardTitle className="text-lg">Small Hive Beetles</CardTitle>
+                      <CardDescription>Destructive beetle larvae</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        Dark beetles that lay eggs in hive cracks. Larvae tunnel through comb, damaging honey and brood. 
+                        Strong colonies can defend against them, but weak colonies may be overwhelmed.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader className="pb-3">
+                      <CardTitle className="text-lg">Wax Moths</CardTitle>
+                      <CardDescription>Comb destroyers</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        Moth larvae that tunnel through wax comb, leaving behind silk webs and frass. They prefer 
+                        stored equipment and weak colonies. Strong colonies can keep them under control.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader className="pb-3">
+                      <CardTitle className="text-lg">Ants</CardTitle>
+                      <CardDescription>Hive invaders</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        Can invade hives for honey and brood. They're attracted to weak colonies and can overwhelm 
+                        them. Keep hives elevated and use ant barriers to prevent access.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader className="pb-3">
+                      <CardTitle className="text-lg">Wasps & Hornets</CardTitle>
+                      <CardDescription>Predatory insects</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        Can prey on bees and steal honey. Yellow jackets are particularly aggressive in fall. 
+                        Strong colonies can defend themselves, but weak colonies may need protection.
+                      </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardHeader className="pb-3">
+                      <CardTitle className="text-lg">Mice</CardTitle>
+                      <CardDescription>Winter invaders</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-sm text-muted-foreground">
+                        Can nest in hives during winter when bees are clustered. They damage comb and can kill bees. 
+                        Use mouse guards and keep entrances small in winter.
                       </p>
                     </CardContent>
                   </Card>
@@ -388,7 +545,7 @@ export default function GlossaryPage() {
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
                         Colony without a laying queen. Workers may lay unfertilized eggs (which make drones). 
-                        Colony will die unless requeened or allowed to raise a new queen.
+                        Colony will die unless <Link href="https://thebeesupply.com/blogs/beekeepers-blog/requeening-a-hive-made-easy" className="text-amber-600 hover:underline" target="_blank" rel="noopener noreferrer">requeened</Link> or allowed to raise a new queen.
                       </p>
                     </CardContent>
                   </Card>
@@ -440,7 +597,7 @@ export default function GlossaryPage() {
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
                         When bees from other colonies try to steal honey from a weak hive. Can kill 
-                        the robbed colony. Reduce entrance to prevent. 
+                        the robbed colony because they will have no food. Reduce entrance to prevent. 
                       </p>
                     </CardContent>
                   </Card>
@@ -526,7 +683,7 @@ export default function GlossaryPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <AlertTriangle className="h-4 w-4 text-red-600 mt-0.5 flex-shrink-0" />
-                      <span>Feeding sugar syrup in winter</span>
+                      <span>Feeding sugar syrup in winter (This is what their fall honey is for)</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <AlertTriangle className="h-4 w-4 text-red-600 mt-0.5 flex-shrink-0" />
