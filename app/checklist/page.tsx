@@ -241,7 +241,7 @@ export default function ChecklistPage() {
 
               {/* Before Spring (March-April) */}
               <div className="space-y-4">
-                <h2 className="text-2xl font-bold text-amber-700">🌱 Before Spring (March-April)</h2>
+                <h2 className="text-2xl font-bold text-amber-700">🌱 Before Spring</h2>
                 
                 <Card>
                   <CardHeader>
@@ -310,7 +310,7 @@ export default function ChecklistPage() {
 
               {/* Before Summer (May-June) */}
               <div className="space-y-4">
-                <h2 className="text-2xl font-bold text-orange-700">☀️ Before Summer (May-June)</h2>
+                <h2 className="text-2xl font-bold text-orange-700">☀️ Before Summer</h2>
                 
                 <Card>
                   <CardHeader>
@@ -379,7 +379,7 @@ export default function ChecklistPage() {
 
               {/* Before Dearth (July-August) */}
               <div className="space-y-4">
-                <h2 className="text-2xl font-bold text-red-700">🌵 Before Dearth (July-August)</h2>
+                <h2 className="text-2xl font-bold text-red-700">🌵 Before Dearth</h2>
                 
                 <Card>
                   <CardHeader>
@@ -425,7 +425,7 @@ export default function ChecklistPage() {
                           </li>
                           <li className="flex items-start gap-2">
                             <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
-                            <span>Plan where extra drawn out frames will go during winter</span>
+                            <span>Plan where extra drawn out frames will go during winter (preferably a freezer so combs do not spoil)</span>
                           </li>
                           <li className="flex items-start gap-2">
                             <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 flex-shrink-0" />
@@ -448,7 +448,7 @@ export default function ChecklistPage() {
 
               {/* Before Winter (September-October) */}
               <div className="space-y-4">
-                <h2 className="text-2xl font-bold text-gray-700">❄️ Before Winter (September-October)</h2>
+                <h2 className="text-2xl font-bold text-gray-700">❄️ Before Winter</h2>
                 
                 <Card>
                   <CardHeader>
