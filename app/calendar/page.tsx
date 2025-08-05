@@ -45,7 +45,7 @@ export default function CalendarPage() {
     december: "December",
   }
 
-  const tasks = (selectedRegion && beekeepingData[selectedRegion]?.[selectedMonth]) || []
+  const tasks = (selectedRegion && beekeepingData[selectedRegion as keyof typeof beekeepingData]?.[selectedMonth as keyof typeof beekeepingData["3a"]]) || []
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -70,7 +70,7 @@ export default function CalendarPage() {
             <Card>
               <CardHeader>
                 <CardTitle>Select Your Region</CardTitle>
-                <CardDescription>Choose your state to get location-specific beekeeping guidance</CardDescription>
+                <CardDescription>Choose your USDA Plant Hardiness Zone to get location-specific beekeeping guidance</CardDescription>
               </CardHeader>
               <CardContent>
                 <Select value={selectedRegion} onValueChange={setSelectedRegion}>
@@ -99,19 +99,19 @@ export default function CalendarPage() {
                   <TabsList className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12">
                     {months.map((month) => (
                       <TabsTrigger key={month} value={month}>
-                        {monthNames[month]}
+                        {monthNames[month as keyof typeof monthNames]}
                       </TabsTrigger>
                     ))}
                   </TabsList>
 
                   {months.map((month) => (
                     <TabsContent key={month} value={month} className="space-y-4">
-                      <h3 className="text-xl font-bold">{monthNames[month]} Tasks</h3>
+                      <h3 className="text-xl font-bold">{monthNames[month as keyof typeof monthNames]} Tasks</h3>
 
-                      {beekeepingData[selectedRegion]?.[month]?.length ? (
+                      {beekeepingData[selectedRegion as keyof typeof beekeepingData]?.[month as keyof typeof beekeepingData["3a"]]?.length ? (
                         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-                          {beekeepingData[selectedRegion][month].map((task, index) => (
-                            <TaskCard key={index} task={task} />
+                          {beekeepingData[selectedRegion as keyof typeof beekeepingData][month as keyof typeof beekeepingData["3a"]].map((task: any, index: number) => (
+                            <TaskCard key={index} task={task} month={month} />
                           ))}
                         </div>
                       ) : (

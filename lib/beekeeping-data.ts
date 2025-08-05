@@ -1,1617 +1,4306 @@
 export const beekeepingData = {
-  northeast: {
+  "3a": {
     january: [
       {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 20°F (-7°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+      {
         title: "Equipment Preparation",
-        description: "Clean, repair, and prepare equipment for the upcoming season while bees are clustered.",
+        description: "Prepare equipment for spring while bees are dormant.",
         difficulty: "beginner",
         timeEstimate: "2-3 hours per week",
         tips: [
-          "Order replacement parts now to avoid spring rush",
-          "Clean frames and boxes with a mild bleach solution (1:10)",
+          "Clean and repair equipment in heated space",
+          "Order replacement parts early",
           "Build new equipment if needed",
-        ],
-      },
-      {
-        title: "Hive Check",
-        description: "On warmer days (above 40°F/4°C), briefly check food stores without opening the hive fully.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per hive",
-        tips: [
-          "Lift the back of the hive to gauge weight/honey stores",
-          "Clear snow from entrances but leave winter wraps in place",
-          "Listen for buzzing to confirm the colony is alive",
-        ],
-      },
-      {
-        title: "Education & Planning",
-        description: "Study beekeeping resources and plan your spring activities.",
-        difficulty: "beginner",
-        timeEstimate: "Ongoing",
-        tips: [
-          "Join local beekeeping associations",
-          "Order bees if needed (packages, nucs, or queens)",
-          "Create a calendar for the upcoming season",
-        ],
-      },
-      {
-        title: "Wax Moth Prevention",
-        description: "Check stored equipment for wax moth damage and implement prevention strategies.",
-        difficulty: "intermediate",
-        timeEstimate: "1-2 hours",
-        tips: [
-          "Freeze stored frames for 48 hours to kill wax moth eggs and larvae",
-          "Store equipment in well-ventilated, cool areas",
-          "Consider using paradichlorobenzene crystals for long-term storage (follow instructions carefully)",
+          "Plan for late spring start (May-June)",
         ],
       },
     ],
     february: [
       {
-        title: "Emergency Feeding",
-        description: "Check food stores and provide emergency feed if necessary.",
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
         difficulty: "beginner",
-        timeEstimate: "30 minutes per hive",
+        timeEstimate: "20 minutes per hive",
         tips: [
-          "Use fondant or winter patties placed directly above the cluster",
-          "Avoid liquid feeding in cold weather",
-          "Check on warmer days (above 40°F/4°C)",
+          "Check only on days above 25°F (-4°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
         ],
       },
       {
         title: "Order Bees & Supplies",
-        description: "Finalize orders for bees, queens, and any additional equipment needed.",
+        description: "Order bees for late spring arrival.",
         difficulty: "beginner",
         timeEstimate: "1-2 hours",
         tips: [
-          "Local suppliers often sell out early",
-          "Consider ordering nucs instead of packages for faster colony establishment",
-          "Plan for at least one extra hive box per colony for the season",
-        ],
-      },
-      {
-        title: "Equipment Modification & Upgrades",
-        description: "Modify and upgrade equipment based on previous season's experience.",
-        difficulty: "intermediate",
-        timeEstimate: "3-4 hours",
-        tips: [
-          "Consider adding screened bottom boards for better ventilation and mite monitoring",
-          "Modify entrance reducers or add mouse guards based on previous winter's experience",
-          "Upgrade to frames with stainless steel wire or plastic foundation if wooden frames caused issues",
+          "Order packages/nucs for May-June delivery",
+          "Plan for short but intense season",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
         ],
       },
     ],
     march: [
       {
-        title: "First Spring Inspection",
-        description: "Conduct first brief inspection when temperatures reach 50°F (10°C) consistently.",
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
         difficulty: "beginner",
-        timeEstimate: "20-30 minutes per hive",
+        timeEstimate: "30 minutes per hive",
         tips: [
-          "Check for the queen or signs of queen (eggs, young larvae)",
-          "Assess food stores and provide supplemental feeding if needed",
-          "Remove winter wraps gradually as temperatures warm",
-        ],
-      },
-      {
-        title: "Clean Bottom Boards",
-        description: "Clean bottom boards of dead bees and debris.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per hive",
-        tips: [
-          "Replace with clean bottom board rather than cleaning in place if possible",
-          "Check debris for signs of disease or pests",
-          "Ensure proper ventilation",
-        ],
-      },
-      {
-        title: "Begin Feeding",
-        description: "Start 1:1 sugar syrup feeding to stimulate brood production.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per hive, weekly",
-        tips: [
-          "Use entrance or top feeders depending on temperatures",
-          "Add pollen substitute if natural pollen is scarce",
-          "Feed consistently until natural nectar flow begins",
-        ],
-      },
-      {
-        title: "Queen Evaluation & Replacement Planning",
-        description: "Evaluate overwintered queens and plan for potential replacements.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive plus research time",
-        tips: [
-          "Look for queens that are 2+ years old which may need replacement this season",
-          "Research and order queens from reputable suppliers for spring requeening",
-          "Consider learning to raise your own queens if you have multiple hives",
+          "Wait for consistent 40°F (4°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April-May first inspection",
         ],
       },
     ],
     april: [
       {
-        title: "Regular Inspections",
-        description: "Begin regular hive inspections every 7-10 days.",
+        title: "Pre-Spring Preparation",
+        description: "Prepare for late spring start.",
         difficulty: "beginner",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Look for queen cells which may indicate swarming preparations",
-          "Check brood pattern for signs of healthy queen",
-          "Monitor for pests and diseases",
-        ],
-      },
-      {
-        title: "Swarm Prevention",
-        description: "Implement swarm prevention measures as colonies grow.",
-        difficulty: "intermediate",
-        timeEstimate: "30-45 minutes per hive",
-        tips: [
-          "Add honey supers before the brood chamber is 80% full",
-          "Consider splitting strong colonies",
-          "Remove queen cells if not planning to make splits",
-        ],
-      },
-      {
-        title: "Install New Packages/Nucs",
-        description: "Install any new bee packages or nucleus colonies.",
-        difficulty: "beginner",
-        timeEstimate: "1 hour per installation",
-        tips: [
-          "Install in late afternoon to minimize drift",
-          "Feed new colonies immediately",
-          "Reduce entrance size for new colonies",
-        ],
-      },
-      {
-        title: "Split Creation",
-        description: "Create splits from strong colonies for increase or swarm prevention.",
-        difficulty: "intermediate",
-        timeEstimate: "1 hour per split",
-        tips: [
-          "Wait until consistent temperatures above 60°F (15°C)",
-          "Ensure the split has plenty of nurse bees, honey, and pollen",
-          "Consider using queen cells, virgin queens, or mated queens depending on your timeline",
-        ],
-      },
-    ],
-    may: [
-      {
-        title: "Add Honey Supers",
-        description: "Add honey supers as nectar flow begins and colonies expand.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per hive",
-        tips: [
-          "Use queen excluders if desired",
-          "Add supers before the colony becomes congested",
-          "Consider using drawn comb for first super if available",
-        ],
-      },
-      {
-        title: "Monitor for Swarming",
-        description: "Continue vigilant monitoring for swarm cells and signs of congestion.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive, weekly",
-        tips: [
-          "Inspect the bottom of frames for queen cups/cells",
-          "Provide additional space before it's needed",
-          "Consider making splits from strong colonies",
-        ],
-      },
-      {
-        title: "Pest Monitoring",
-        description: "Begin regular monitoring for varroa mites and other pests.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per apiary",
-        tips: [
-          "Conduct alcohol wash or sugar roll test for accurate mite counts",
-          "Check for small hive beetles in warmer areas",
-          "Plan treatment schedule based on monitoring results",
-        ],
-      },
-      {
-        title: "Queen Rearing Preparation",
-        description: "Prepare for small-scale queen rearing from your best colonies.",
-        difficulty: "intermediate",
-        timeEstimate: "2-3 hours initial setup, then ongoing management",
-        tips: [
-          "Identify your strongest, gentlest, and most productive colony as a breeder",
-          "Prepare cell builder colony with plenty of young nurse bees",
-          "Gather or purchase necessary queen rearing equipment (cell cups, grafting tools, etc.)",
-        ],
-      },
-    ],
-    june: [
-      {
-        title: "Manage Honey Flow",
-        description: "Continue adding honey supers as needed during main nectar flow.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per hive",
-        tips: [
-          "Add supers when the previous one is 70% filled",
-          "Place new supers between the brood box and partially filled supers",
-          "Ensure adequate ventilation during hot weather",
-        ],
-      },
-      {
-        title: "Varroa Assessment",
-        description: "Conduct thorough varroa mite assessment.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per apiary",
-        tips: [
-          "Use alcohol wash or sugar roll methods for accurate counts",
-          "Treatment threshold is typically 2-3 mites per 100 bees",
-          "Plan treatments that won't contaminate honey if supers are on",
-        ],
-      },
-      {
-        title: "Water Source Maintenance",
-        description: "Ensure water sources are available near hives during hot weather.",
-        difficulty: "beginner",
-        timeEstimate: "30 minutes",
-        tips: [
-          "Place water sources before bees find less desirable sources",
-          "Add floating objects to prevent drowning",
-          "Consider adding salt or minerals to water",
-        ],
-      },
-      {
-        title: "Honey Variety Management",
-        description: "Manage supers to separate different honey varieties based on nectar flows.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Research the major nectar flows in your specific area and their timing",
-          "Remove and extract spring honey before summer flows begin for distinct varieties",
-          "Label frames or use different colored foundation to track different honey flows",
-        ],
-      },
-    ],
-    july: [
-      {
-        title: "Honey Harvest (Early)",
-        description: "Harvest spring honey if complete and nectar flow has ended.",
-        difficulty: "intermediate",
-        timeEstimate: "1-2 hours per hive plus extraction time",
-        tips: [
-          "Only harvest fully capped frames",
-          "Use bee escapes or leaf blowers to remove bees",
-          "Return wet supers late in day to prevent robbing",
-        ],
-      },
-      {
-        title: "Summer Dearth Management",
-        description: "Manage colonies during potential summer nectar dearth.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Reduce entrances to prevent robbing",
-          "Consider feeding if stores are low",
-          "Be quick during inspections to avoid triggering robbing",
-        ],
-      },
-      {
-        title: "Varroa Treatment Planning",
-        description: "Plan varroa treatments after honey harvest.",
-        difficulty: "intermediate",
-        timeEstimate: "1 hour research/planning",
-        tips: [
-          "Research treatment options appropriate for your region",
-          "Consider temperature requirements for various treatments",
-          "Coordinate with honey removal to avoid contamination",
-        ],
-      },
-      {
-        title: "Propolis Collection",
-        description: "Collect propolis for personal use or as an additional hive product.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive, plus processing time",
-        tips: [
-          "Use propolis traps placed on top of the frames",
-          "Collect during warm weather when propolis is pliable",
-          "Freeze collected propolis before processing to make it easier to handle",
-        ],
-      },
-    ],
-    august: [
-      {
-        title: "Main Honey Harvest",
-        description: "Harvest main honey crop before treating for varroa.",
-        difficulty: "intermediate",
-        timeEstimate: "1-2 hours per hive plus extraction time",
-        tips: [
-          "Leave adequate honey for winter (60-80 lbs for Northeast)",
-          "Extract promptly after harvesting",
-          "Return wet supers late in evening to prevent robbing",
-        ],
-      },
-      {
-        title: "Varroa Treatment",
-        description: "Apply varroa treatments after honey harvest.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive, plus follow-up",
-        tips: [
-          "Follow treatment instructions precisely",
-          "Consider temperature ranges for effective treatment",
-          "Plan for follow-up monitoring to assess effectiveness",
-        ],
-      },
-      {
-        title: "Fall Feeding Preparation",
-        description: "Begin assessing winter stores and preparing for fall feeding.",
-        difficulty: "beginner",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Weigh hives or estimate stores by frame count",
-          "Prepare 2:1 sugar syrup for fall feeding",
-          "Consider protein supplements if fall pollen is scarce",
-        ],
-      },
-      {
-        title: "Integrated Pest Management",
-        description: "Implement comprehensive IPM strategies beyond basic treatments.",
-        difficulty: "intermediate",
-        timeEstimate: "1-2 hours per apiary, plus monitoring",
-        tips: [
-          "Rotate treatment methods to prevent resistance development",
-          "Consider drone brood removal as a mechanical control method",
-          "Track mite drop counts before and after treatments to evaluate effectiveness",
-        ],
-      },
-    ],
-    september: [
-      {
-        title: "Fall Feeding",
-        description: "Feed 2:1 sugar syrup to ensure adequate winter stores.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per hive, weekly",
-        tips: [
-          "Feed consistently until target weight is reached",
-          "Use frame feeders or top feeders for large volumes",
-          "Reduce entrance size to prevent robbing",
-        ],
-      },
-      {
-        title: "Post-Treatment Mite Check",
-        description: "Conduct follow-up mite testing to verify treatment efficacy.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per apiary",
-        tips: [
-          "Allow sufficient time after treatment completion",
-          "Consider secondary treatment if counts remain high",
-          "Document results for future reference",
-        ],
-      },
-      {
-        title: "Combine Weak Colonies",
-        description: "Evaluate colony strength and combine weak colonies if necessary.",
-        difficulty: "intermediate",
-        timeEstimate: "1 hour per combination",
-        tips: [
-          "Use newspaper method for combining",
-          "Ensure the stronger queen is preserved",
-          "Verify colonies are disease-free before combining",
-        ],
-      },
-      {
-        title: "Honey Moisture Management",
-        description: "Test and manage moisture content in harvested honey.",
-        difficulty: "intermediate",
-        timeEstimate: "1 hour",
-        tips: [
-          "Use a refractometer to measure honey moisture content (target below 18.6%)",
-          "For high-moisture honey, use a dehumidifier in a closed room with open honey containers",
-          "Learn proper bottling techniques to prevent fermentation in stored honey",
-        ],
-      },
-    ],
-    october: [
-      {
-        title: "Final Winter Preparations",
-        description: "Complete winter preparations before consistent cold weather.",
-        difficulty: "beginner",
-        timeEstimate: "1 hour per hive",
-        tips: [
-          "Install mouse guards/entrance reducers",
-          "Ensure adequate ventilation while reducing drafts",
-          "Consider insulation or winter wraps for extreme cold regions",
-        ],
-      },
-      {
-        title: "Last Inspections",
-        description: "Conduct final brief inspections on warm days.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per hive",
-        tips: [
-          "Verify queen presence one last time",
-          "Ensure honey frames are positioned near the cluster",
-          "Remove any unnecessary equipment",
-        ],
-      },
-      {
-        title: "Equipment Storage",
-        description: "Clean and properly store unused equipment.",
-        difficulty: "beginner",
-        timeEstimate: "2-3 hours",
-        tips: [
-          "Freeze drawn comb for 48 hours to kill wax moth eggs",
-          "Store boxes with paradichlorobenzene crystals or in cold areas",
-          "Repair damaged equipment during off-season",
-        ],
-      },
-      {
-        title: "Advanced Winter Preparations",
-        description: "Implement advanced winter preparation techniques based on previous experience.",
-        difficulty: "intermediate",
-        timeEstimate: "1 hour per hive",
-        tips: [
-          "Consider using moisture quilts or moisture boards above the inner cover",
-          "Implement windbreaks based on prevailing winter wind direction",
-          "Adjust winter clustering space based on colony size and previous winter experience",
-        ],
-      },
-    ],
-    november: [
-      {
-        title: "Hive Winterizing",
-        description: "Apply winter wraps, windbreaks, and final winter preparations.",
-        difficulty: "beginner",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Ensure upper ventilation to prevent condensation",
-          "Secure hives against winter winds",
-          "Consider using moisture boards or quilt boxes",
-        ],
-      },
-      {
-        title: "Equipment Maintenance",
-        description: "Clean, repair, and maintain equipment during the off-season.",
-        difficulty: "beginner",
-        timeEstimate: "Ongoing",
-        tips: [
-          "Clean propolis from frames and boxes",
-          "Repair or replace damaged equipment",
-          "Organize supplies for next season",
-        ],
-      },
-      {
-        title: "Record Analysis & Planning",
-        description: "Analyze detailed hive records and plan improvements for next season.",
-        difficulty: "intermediate",
-        timeEstimate: "2-3 hours",
-        tips: [
-          "Compare production between hives to identify genetic lines worth propagating",
-          "Analyze treatment effectiveness and timing for better pest management",
-          "Plan yard expansion or consolidation based on performance data",
-        ],
-      },
-    ],
-    december: [
-      {
-        title: "Periodic Hive Checks",
-        description: "Conduct external hive checks after storms or extreme weather.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per apiary",
-        tips: [
-          "Clear snow from entrances but don't remove insulation",
-          "Listen briefly for buzzing to confirm colony is alive",
-          "Check for signs of rodent or woodpecker damage",
-        ],
-      },
-      {
-        title: "Education & Planning",
-        description: "Study, attend workshops, and plan for next season.",
-        difficulty: "beginner",
-        timeEstimate: "Ongoing",
-        tips: [
-          "Review notes from the past season",
-          "Order catalogs and plan equipment needs",
-          "Consider trying new techniques or equipment next year",
-        ],
-      },
-      {
-        title: "Record Keeping",
-        description: "Update records and evaluate the past season's performance.",
-        difficulty: "beginner",
-        timeEstimate: "2-3 hours",
-        tips: [
-          "Document honey yields, treatments, and colony performance",
-          "Plan improvements for next season",
-          "Set goals for the coming year",
-        ],
-      },
-      {
-        title: "Beeswax Processing & Product Creation",
-        description: "Process collected beeswax and create value-added products.",
-        difficulty: "intermediate",
-        timeEstimate: "3-4 hours",
-        tips: [
-          "Use a double-boiler setup to safely melt and filter beeswax",
-          "Try making candles, lip balm, or furniture polish with processed wax",
-          "Save the highest quality wax for cosmetic products and candles",
-        ],
-      },
-    ],
-  },
-  southeast: {
-    january: [
-      {
-        title: "Early Inspection",
-        description: "Take advantage of warm days (above 55°F/13°C) for quick inspections.",
-        difficulty: "beginner",
-        timeEstimate: "20 minutes per hive",
-        tips: [
-          "Check food stores and provide emergency feeding if needed",
-          "Look for early brood rearing in warmer areas",
-          "Ensure adequate ventilation",
-        ],
-      },
-      {
-        title: "Equipment Preparation",
-        description: "Prepare equipment for the early spring buildup.",
-        difficulty: "beginner",
-        timeEstimate: "2-3 hours per week",
-        tips: [
-          "Assemble new equipment",
-          "Clean and repair existing equipment",
-          "Order packages or nucs if planning expansion",
-        ],
-      },
-      {
-        title: "Early Feeding",
-        description: "Begin stimulative feeding in warmer parts of the Southeast.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per hive",
-        tips: [
-          "Use 1:1 sugar syrup to stimulate brood production",
-          "Consider pollen substitute to boost protein",
-          "Feed consistently once started",
-        ],
-      },
-      {
-        title: "Early Queen Rearing Planning",
-        description: "Plan for early queen rearing in the Southeast's warmer climate.",
-        difficulty: "intermediate",
-        timeEstimate: "2-3 hours planning",
-        tips: [
-          "Research local queen producers for genetics adapted to your area",
-          "Prepare equipment for queen rearing starting as early as February in warmest areas",
-          "Consider joining a queen rearing cooperative or local breeding program",
-        ],
-      },
-    ],
-    february: [
-      {
-        title: "Regular Inspections",
-        description: "Begin regular inspections as early nectar sources bloom.",
-        difficulty: "beginner",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Check for queen presence and brood pattern",
-          "Monitor for early swarm preparations",
-          "Ensure adequate room for colony expansion",
-        ],
-      },
-      {
-        title: "Swarm Prevention",
-        description: "Begin early swarm prevention measures.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Add boxes before they're needed",
-          "Consider checkerboarding frames in strong colonies",
-          "Watch for and manage queen cells",
-        ],
-      },
-      {
-        title: "Early Pest Monitoring",
-        description: "Begin monitoring for pests as colonies become active.",
-        difficulty: "intermediate",
-        timeEstimate: "20 minutes per apiary",
-        tips: [
-          "Check for small hive beetles which are active earlier in the Southeast",
-          "Monitor for varroa mites",
-          "Install beetle traps if needed",
-        ],
-      },
-      {
-        title: "Early Split Preparation",
-        description: "Prepare for making early splits as colonies build up quickly in the Southeast.",
-        difficulty: "intermediate",
-        timeEstimate: "1 hour per planned split",
-        tips: [
-          "Identify strong colonies for splitting in March",
-          "Prepare equipment including bottom boards, boxes, and frames",
-          "Consider ordering queens if you won't be raising your own",
-        ],
-      },
-    ],
-    march: [
-      {
-        title: "Nectar Flow Management",
-        description: "Prepare for and manage the early spring nectar flow.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Add honey supers to strong colonies",
-          "Continue swarm prevention measures",
-          "Ensure colonies have drawn comb ready",
-        ],
-      },
-      {
-        title: "Make Splits/Nucs",
-        description: "Create splits from strong colonies for increase or swarm prevention.",
-        difficulty: "intermediate",
-        timeEstimate: "1 hour per split",
-        tips: [
-          "Choose strong donor colonies with good genetics",
-          "Ensure adequate nurse bees in splits",
-          "Feed splits until established",
-        ],
-      },
-      {
-        title: "Install Packages/Nucs",
-        description: "Install new bee packages or nucleus colonies.",
-        difficulty: "beginner",
-        timeEstimate: "1 hour per installation",
-        tips: [
-          "Install in late afternoon",
-          "Feed immediately after installation",
-          "Reduce entrance size for new colonies",
-        ],
-      },
-      {
-        title: "Comb Honey Production Setup",
-        description: "Prepare equipment and colonies for comb honey production.",
-        difficulty: "intermediate",
-        timeEstimate: "1-2 hours per hive",
-        tips: [
-          "Select young colonies with fresh wax-drawing capabilities",
-          "Prepare comb honey supers with thin surplus foundation",
-          "Ensure strong colonies that will quickly fill comb honey sections",
-        ],
-      },
-    ],
-    april: [
-      {
-        title: "Main Nectar Flow Management",
-        description: "Manage colonies during the main spring nectar flow.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive, weekly",
-        tips: [
-          "Add supers before they're needed",
-          "Harvest honey when ready to provide space",
-          "Continue monitoring for swarm preparations",
-        ],
-      },
-      {
-        title: "Queen Evaluation",
-        description: "Evaluate queen performance and replace underperforming queens.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Look for solid brood pattern with few skipped cells",
-          "Ensure good temperament and productivity",
-          "Order replacement queens if needed",
-        ],
-      },
-      {
-        title: "Pest Management",
-        description: "Monitor and manage small hive beetles and other pests.",
-        difficulty: "intermediate",
-        timeEstimate: "20 minutes per hive",
-        tips: [
-          "Use beetle traps appropriate for your hive type",
-          "Keep colonies strong to defend against beetles",
-          "Maintain good apiary sanitation",
-        ],
-      },
-      {
-        title: "Nucleus Colony Creation",
-        description: "Create nucleus colonies for increase or sale.",
-        difficulty: "intermediate",
-        timeEstimate: "1 hour per nuc",
-        tips: [
-          "Include frames with eggs, young larvae, honey, and pollen",
-          "Ensure adequate nurse bees in each nucleus colony",
-          "Consider selling excess nucs to other beekeepers if you create many",
-        ],
-      },
-    ],
-    may: [
-      {
-        title: "Spring Honey Harvest",
-        description: "Harvest spring honey crop.",
-        difficulty: "intermediate",
-        timeEstimate: "1-2 hours per hive plus extraction time",
-        tips: [
-          "Harvest when frames are at least 80% capped",
-          "Extract promptly in humid climates",
-          "Return wet supers in evening to prevent robbing",
-        ],
-      },
-      {
-        title: "Varroa Assessment",
-        description: "Conduct thorough varroa mite assessment.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per apiary",
-        tips: [
-          "Use alcohol wash or sugar roll for accurate counts",
-          "Treatment threshold is typically 2-3 mites per 100 bees",
-          "Plan treatments that won't contaminate honey if supers are on",
-        ],
-      },
-      {
-        title: "Summer Preparation",
-        description: "Prepare colonies for potential summer dearth and heat.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Ensure adequate ventilation for hot weather",
-          "Consider shade for hives during hottest part of day",
-          "Ensure water sources are available nearby",
-        ],
-      },
-      {
-        title: "Small Hive Beetle Advanced Management",
-        description: "Implement comprehensive small hive beetle management strategies.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Use in-hive beetle traps with mineral oil or vegetable oil",
-          "Maintain strong colonies that can patrol all areas of the hive",
-          "Consider nematode treatments in the soil around hives",
-        ],
-      },
-    ],
-    june: [
-      {
-        title: "Summer Dearth Management",
-        description: "Manage colonies during typical summer nectar dearth.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Reduce entrances to prevent robbing",
-          "Feed if necessary to maintain colony strength",
-          "Be vigilant about hive beetle populations which thrive in heat",
-        ],
-      },
-      {
-        title: "Varroa Treatment",
-        description: "Apply varroa treatments if needed based on May assessment.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive, plus follow-up",
-        tips: [
-          "Choose treatments appropriate for hot weather",
-          "Follow treatment instructions precisely",
-          "Monitor effectiveness after treatment period",
-        ],
-      },
-      {
-        title: "Queen Replacement",
-        description: "Replace underperforming queens while replacement queens are available.",
-        difficulty: "advanced",
-        timeEstimate: "1 hour per hive",
-        tips: [
-          "Mark new queens for easy identification",
-          "Consider locally raised queens adapted to your climate",
-          "Introduce properly using cage method",
-        ],
-      },
-      {
-        title: "Heat Stress Prevention",
-        description: "Implement advanced techniques to prevent heat stress in colonies.",
-        difficulty: "intermediate",
         timeEstimate: "1-2 hours per apiary",
         tips: [
-          "Create shade structures that allow morning sun but block afternoon heat",
-          "Consider painting hives with reflective white or light colors",
-          "Implement enhanced ventilation systems for extreme heat periods",
-        ],
-      },
-    ],
-    july: [
-      {
-        title: "Heat Management",
-        description: "Help colonies manage extreme summer heat.",
-        difficulty: "beginner",
-        timeEstimate: "30 minutes per apiary",
-        tips: [
-          "Provide additional ventilation if needed",
-          "Ensure consistent water sources",
-          "Consider shade cloth or moving hives to afternoon shade",
-        ],
-      },
-      {
-        title: "Pest Vigilance",
-        description: "Monitor for increased pest pressure during hot weather.",
-        difficulty: "intermediate",
-        timeEstimate: "20 minutes per hive",
-        tips: [
-          "Check small hive beetle traps frequently",
-          "Watch for signs of wax moths in weaker colonies",
-          "Keep apiary clear of debris that can harbor pests",
-        ],
-      },
-      {
-        title: "Fall Planning",
-        description: "Begin planning for fall management and honey flow.",
-        difficulty: "beginner",
-        timeEstimate: "1 hour",
-        tips: [
-          "Research local fall nectar sources and timing",
-          "Plan equipment needs for fall flow",
-          "Consider combining weak colonies before fall",
-        ],
-      },
-      {
-        title: "Propolis Collection",
-        description: "Collect propolis as an additional hive product during hot weather when it's soft.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive, plus processing time",
-        tips: [
-          "Use propolis traps placed on top of the frames",
-          "Collect during warm weather when propolis is pliable",
-          "Freeze collected propolis before processing to make it easier to handle",
-        ],
-      },
-    ],
-    august: [
-      {
-        title: "Fall Flow Preparation",
-        description: "Prepare colonies for potential fall nectar flow.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Add supers if fall flow is expected",
-          "Ensure colonies have adequate drawn comb",
-          "Consider equalizing colony strength",
-        ],
-      },
-      {
-        title: "Mite Assessment",
-        description: "Conduct second varroa assessment of the season.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per apiary",
-        tips: [
-          "Treatment threshold lowers as season progresses",
-          "Plan treatments to be completed before winter bee production",
-          "Consider non-chemical methods if counts are borderline",
-        ],
-      },
-      {
-        title: "Queen Evaluation",
-        description: "Final queen evaluation before winter preparation.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Ensure queen is laying well for winter bee production",
-          "Last chance to replace queens before winter",
-          "Consider combining queenless colonies with queenright ones",
-        ],
-      },
-      {
-        title: "Queen Banking",
-        description: "Learn to bank extra queens for emergency replacement or late-season requeening.",
-        difficulty: "intermediate",
-        timeEstimate: "2 hours setup, then 15 minutes weekly maintenance",
-        tips: [
-          "Create a strong, queenless colony with plenty of young bees",
-          "Use queen cages properly spaced in a frame designed for banking",
-          "Feed the banking colony consistently and check queens regularly",
-        ],
-      },
-    ],
-    september: [
-      {
-        title: "Fall Treatment",
-        description: "Apply fall varroa treatments if needed.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive, plus follow-up",
-        tips: [
-          "Complete treatments before winter bee production",
-          "Follow treatment instructions precisely",
-          "Monitor effectiveness after treatment period",
-        ],
-      },
-      {
-        title: "Fall Feeding",
-        description: "Begin fall feeding to ensure winter stores.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per hive, weekly",
-        tips: [
-          "Use 2:1 sugar syrup for winter stores",
-          "Feed consistently until target weight is reached",
-          "Consider protein supplements if fall pollen is scarce",
-        ],
-      },
-      {
-        title: "Fall Nectar Flow Management",
-        description: "Manage any fall nectar flow for honey production or winter stores.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Decide whether to harvest fall honey or leave for winter",
-          "Southeast colonies typically need 40-60 lbs for winter",
-          "Position honey frames near brood nest for winter",
-        ],
-      },
-      {
-        title: "Advanced Requeening",
-        description: "Perform fall requeening with advanced introduction techniques.",
-        difficulty: "intermediate",
-        timeEstimate: "30-45 minutes per hive",
-        tips: [
-          "Try the push-in cage method for higher acceptance rates",
-          "Consider requeening with locally adapted genetics",
-          "Mark new queens for easy identification next season",
-        ],
-      },
-    ],
-    october: [
-      {
-        title: "Winter Preparation",
-        description: "Prepare hives for winter.",
-        difficulty: "beginner",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Reduce entrances to prevent robbing and mice",
-          "Ensure adequate ventilation while reducing drafts",
-          "Consider minimal insulation for northern parts of Southeast",
-        ],
-      },
-      {
-        title: "Final Inspections",
-        description: "Conduct final inspections before winter.",
-        difficulty: "beginner",
-        timeEstimate: "20 minutes per hive",
-        tips: ["Verify queen presence", "Ensure adequate honey stores", "Remove any unnecessary equipment"],
-      },
-      {
-        title: "Equipment Storage",
-        description: "Clean and store unused equipment.",
-        difficulty: "beginner",
-        timeEstimate: "2-3 hours",
-        tips: [
-          "Protect stored comb from wax moths (more prevalent in Southeast)",
-          "Freeze drawn comb for 48 hours before storage",
-          "Store in cool, dry location",
-        ],
-      },
-      {
-        title: "Apiary Site Evaluation",
-        description: "Evaluate current apiary locations and plan potential moves for better productivity.",
-        difficulty: "intermediate",
-        timeEstimate: "2-3 hours",
-        tips: [
-          "Compare honey production between different yard locations",
-          "Research new locations with diverse forage throughout the season",
-          "Consider sun exposure, wind protection, and accessibility",
-        ],
-      },
-    ],
-    november: [
-      {
-        title: "Occasional Monitoring",
-        description: "Monitor hives during warm days.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per apiary",
-        tips: [
-          "Check for activity on warm days",
-          "Ensure entrances remain clear",
-          "Listen for buzzing to confirm colony is alive",
-        ],
-      },
-      {
-        title: "Emergency Feeding",
-        description: "Provide emergency feed if needed during warm periods.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per hive",
-        tips: [
-          "Use candy boards or winter patties rather than liquid syrup",
-          "Place feed directly above cluster",
-          "Feed only during warm days",
-        ],
-      },
-      {
-        title: "Education & Planning",
-        description: "Study, attend workshops, and plan for next season.",
-        difficulty: "beginner",
-        timeEstimate: "Ongoing",
-        tips: [
-          "Join local beekeeping associations",
-          "Review the past season's records",
-          "Plan equipment and colony needs for spring",
-        ],
-      },
-      {
-        title: "Value-Added Product Development",
-        description: "Develop value-added products from honey and beeswax for gifts or sales.",
-        difficulty: "intermediate",
-        timeEstimate: "4-6 hours",
-        tips: [
-          "Try making specialty products like infused honey or mead",
-          "Create beeswax candles, soaps, or cosmetics",
-          "Research local regulations if planning to sell products",
-        ],
-      },
-    ],
-    december: [
-      {
-        title: "Minimal Hive Checks",
-        description: "Conduct external hive checks during warm days.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per apiary",
-        tips: [
-          "Check for signs of activity on warm days",
-          "Ensure entrances remain clear",
-          "Check for signs of woodpecker or other damage",
-        ],
-      },
-      {
-        title: "Equipment Building",
-        description: "Build and repair equipment for spring.",
-        difficulty: "beginner",
-        timeEstimate: "Ongoing",
-        tips: [
-          "Prepare equipment for early spring buildup",
-          "Consider adding more supers for strong spring flow",
-          "Repair damaged equipment",
-        ],
-      },
-      {
-        title: "Early Spring Planning",
-        description: "Plan for early spring management in the Southeast.",
-        difficulty: "beginner",
-        timeEstimate: "2-3 hours",
-        tips: [
-          "Order packages or nucs early if needed",
-          "Plan for early swarm prevention",
-          "Create calendar for spring management",
-        ],
-      },
-      {
-        title: "Business Planning for Sideline Beekeeping",
-        description: "Develop a business plan for expanding from hobby to sideline beekeeping.",
-        difficulty: "intermediate",
-        timeEstimate: "4-6 hours",
-        tips: [
-          "Calculate costs and potential revenue for different hive products",
-          "Research local markets and selling opportunities",
-          "Plan equipment needs and investments for scaling up",
-        ],
-      },
-    ],
-  },
-  // Add more regions with their monthly tasks
-  midwest: {
-    january: [
-      {
-        title: "Winter Cluster Check",
-        description: "On mild days (above 40°F/4°C), briefly check hive status without opening fully.",
-        difficulty: "beginner",
-        timeEstimate: "10 minutes per hive",
-        tips: [
-          "Listen for buzzing to confirm the colony is alive",
-          "Clear snow from entrances but don't disturb winter wraps",
-          "Lift rear of hive to gauge weight/honey stores",
-        ],
-      },
-      {
-        title: "Equipment Preparation",
-        description: "Clean, repair, and prepare equipment for the upcoming season.",
-        difficulty: "beginner",
-        timeEstimate: "2-3 hours per week",
-        tips: [
-          "Order replacement parts now to avoid spring rush",
-          "Clean frames and boxes with a mild bleach solution (1:10)",
-          "Build new equipment if needed",
-        ],
-      },
-      {
-        title: "Education & Planning",
-        description: "Study beekeeping resources and plan your spring activities.",
-        difficulty: "beginner",
-        timeEstimate: "Ongoing",
-        tips: [
-          "Join local beekeeping associations",
-          "Order bees if needed (packages, nucs, or queens)",
-          "Create a calendar for the upcoming season",
-        ],
-      },
-      {
-        title: "Advanced Equipment Customization",
-        description: "Customize equipment for specific Midwest climate challenges.",
-        difficulty: "intermediate",
-        timeEstimate: "3-4 hours",
-        tips: [
-          "Consider creating custom winter inner covers with upper entrances",
-          "Build wind breaks or hive wraps designed for Midwest temperature swings",
-          "Modify bottom boards for better spring drainage in wet conditions",
-        ],
-      },
-    ],
-    february: [
-      {
-        title: "Emergency Feeding",
-        description: "Check food stores and provide emergency feed if necessary.",
-        difficulty: "beginner",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Use fondant or winter patties placed directly above the cluster",
-          "Avoid liquid feeding in cold weather",
-          "Check on warmer days (above 40°F/4°C)",
-        ],
-      },
-      {
-        title: "Order Bees & Supplies",
-        description: "Finalize orders for bees, queens, and any additional equipment needed.",
-        difficulty: "beginner",
-        timeEstimate: "1-2 hours",
-        tips: [
-          "Local suppliers often sell out early",
-          "Consider ordering nucs instead of packages for faster colony establishment",
-          "Plan for at least one extra hive box per colony for the season",
-        ],
-      },
-      {
-        title: "Apiary Expansion Planning",
-        description: "Plan strategic apiary expansion or relocation based on previous season's results.",
-        difficulty: "intermediate",
-        timeEstimate: "2-3 hours",
-        tips: [
-          "Research new locations with diverse forage options",
-          "Contact farmers about potential pollination arrangements",
-          "Plan equipment needs for expansion and order early",
-        ],
-      },
-    ],
-    march: [
-      {
-        title: "First Spring Inspection",
-        description: "Conduct first brief inspection when temperatures reach 50°F (10°C) consistently.",
-        difficulty: "beginner",
-        timeEstimate: "20-30 minutes per hive",
-        tips: [
-          "Check for the queen or signs of queen (eggs, young larvae)",
-          "Assess food stores and provide supplemental feeding if needed",
-          "Remove winter wraps gradually as temperatures warm",
-        ],
-      },
-      {
-        title: "Clean Bottom Boards",
-        description: "Clean bottom boards of dead bees and debris.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per hive",
-        tips: [
-          "Replace with clean bottom board rather than cleaning in place if possible",
-          "Check debris for signs of disease or pests",
-          "Ensure proper ventilation",
-        ],
-      },
-      {
-        title: "Begin Feeding",
-        description: "Start 1:1 sugar syrup feeding to stimulate brood production.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per hive, weekly",
-        tips: [
-          "Use entrance or top feeders depending on temperatures",
-          "Add pollen substitute if natural pollen is scarce",
-          "Feed consistently until natural nectar flow begins",
-        ],
-      },
-      {
-        title: "Overwintered Colony Assessment",
-        description: "Perform detailed assessment of overwintered colonies for breeding selection.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Document winter survival, cluster size, and food consumption",
-          "Identify colonies with desirable traits for potential queen rearing",
-          "Check for signs of nosema or other diseases that may have affected winter survival",
-        ],
-      },
-    ],
-    april: [
-      {
-        title: "Regular Inspections",
-        description: "Begin regular hive inspections every 7-10 days.",
-        difficulty: "beginner",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Look for queen cells which may indicate swarming preparations",
-          "Check brood pattern for signs of healthy queen",
-          "Monitor for pests and diseases",
-        ],
-      },
-      {
-        title: "Swarm Prevention",
-        description: "Implement swarm prevention measures as colonies grow.",
-        difficulty: "intermediate",
-        timeEstimate: "30-45 minutes per hive",
-        tips: [
-          "Add honey supers before the brood chamber is 80% full",
-          "Consider splitting strong colonies",
-          "Remove queen cells if not planning to make splits",
-        ],
-      },
-      {
-        title: "Install New Packages/Nucs",
-        description: "Install any new bee packages or nucleus colonies.",
-        difficulty: "beginner",
-        timeEstimate: "1 hour per installation",
-        tips: [
-          "Install in late afternoon to minimize drift",
-          "Feed new colonies immediately",
-          "Reduce entrance size for new colonies",
-        ],
-      },
-      {
-        title: "Two-Queen System Setup",
-        description: "Set up experimental two-queen colonies for increased honey production.",
-        difficulty: "intermediate",
-        timeEstimate: "1 hour per colony",
-        tips: [
-          "Select strong, healthy colonies with productive queens",
-          "Use double-screen boards to separate the two queens initially",
-          "Ensure both queens have adequate laying space before main honey flow",
+          "Clean bottom boards",
+          "Remove winter wraps gradually",
+          "Prepare feeding equipment",
+          "Monitor for late frosts",
         ],
       },
     ],
     may: [
       {
-        title: "Add Honey Supers",
-        description: "Add honey supers as nectar flow begins and colonies expand.",
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
         difficulty: "beginner",
-        timeEstimate: "15 minutes per hive",
+        timeEstimate: "30 minutes per hive",
         tips: [
-          "Use queen excluders if desired",
-          "Add supers before the colony becomes congested",
-          "Consider using drawn comb for first super if available",
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
         ],
       },
       {
-        title: "Monitor for Swarming",
-        description: "Continue vigilant monitoring for swarm cells and signs of congestion.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive, weekly",
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
         tips: [
-          "Inspect the bottom of frames for queen cups/cells",
-          "Provide additional space before it's needed",
-          "Consider making splits from strong colonies",
-        ],
-      },
-      {
-        title: "Pest Monitoring",
-        description: "Begin regular monitoring for varroa mites and other pests.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per apiary",
-        tips: [
-          "Conduct alcohol wash or sugar roll test for accurate mite counts",
-          "Check for small hive beetles in warmer areas",
-          "Plan treatment schedule based on monitoring results",
-        ],
-      },
-      {
-        title: "Queen Rearing Initiation",
-        description: "Start queen rearing from selected overwintered colonies with desirable traits.",
-        difficulty: "intermediate",
-        timeEstimate: "2-3 hours initial setup, then ongoing management",
-        tips: [
-          "Select breeder queens from colonies that overwintered well and build up quickly",
-          "Prepare cell builder colonies with plenty of young nurse bees",
-          "Time queen rearing to coincide with drone availability",
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
         ],
       },
     ],
     june: [
       {
-        title: "Manage Honey Flow",
-        description: "Continue adding honey supers as needed during main nectar flow.",
+        title: "Colony Building",
+        description: "Support rapid colony development.",
         difficulty: "beginner",
-        timeEstimate: "15 minutes per hive",
+        timeEstimate: "30 minutes per hive",
         tips: [
-          "Add supers when the previous one is 70% filled",
-          "Place new supers between the brood box and partially filled supers",
-          "Ensure adequate ventilation during hot weather",
-        ],
-      },
-      {
-        title: "Varroa Assessment",
-        description: "Conduct thorough varroa mite assessment.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per apiary",
-        tips: [
-          "Use alcohol wash or sugar roll methods for accurate counts",
-          "Treatment threshold is typically 2-3 mites per 100 bees",
-          "Plan treatments that won't contaminate honey if supers are on",
-        ],
-      },
-      {
-        title: "Water Source Maintenance",
-        description: "Ensure water sources are available near hives during hot weather.",
-        difficulty: "beginner",
-        timeEstimate: "30 minutes",
-        tips: [
-          "Place water sources before bees find less desirable sources",
-          "Add floating objects to prevent drowning",
-          "Consider adding salt or minerals to water",
-        ],
-      },
-      {
-        title: "Cut Comb Honey Production",
-        description: "Produce specialty cut comb honey during main nectar flow.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per super, plus harvesting time",
-        tips: [
-          "Use thin surplus foundation in clean, new frames",
-          "Place comb honey supers directly above the brood nest",
-          "Harvest when combs are fully drawn and capped",
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
         ],
       },
     ],
     july: [
       {
-        title: "Honey Harvest (Early)",
-        description: "Harvest spring honey if complete and nectar flow has ended.",
-        difficulty: "intermediate",
-        timeEstimate: "1-2 hours per hive plus extraction time",
-        tips: [
-          "Only harvest fully capped frames",
-          "Use bee escapes or leaf blowers to remove bees",
-          "Return wet supers late in day to prevent robbing",
-        ],
-      },
-      {
-        title: "Summer Dearth Management",
-        description: "Manage colonies during potential summer nectar dearth.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Reduce entrances to prevent robbing",
-          "Consider feeding if stores are low",
-          "Be quick during inspections to avoid triggering robbing",
-        ],
-      },
-      {
-        title: "Varroa Treatment Planning",
-        description: "Plan varroa treatments after honey harvest.",
-        difficulty: "intermediate",
-        timeEstimate: "1 hour research/planning",
-        tips: [
-          "Research treatment options appropriate for your region",
-          "Consider temperature requirements for various treatments",
-          "Coordinate with honey removal to avoid contamination",
-        ],
-      },
-      {
-        title: "Honey Variety Separation",
-        description: "Separate and track different honey varieties from various nectar flows.",
-        difficulty: "intermediate",
-        timeEstimate: "1 hour per harvest, plus extraction time",
-        tips: [
-          "Extract light spring honey before darker summer varieties",
-          "Keep detailed records of floral sources and timing",
-          "Consider small-batch processing for specialty mono-floral honey",
-        ],
-      },
-    ],
-    august: [
-      {
-        title: "Main Honey Harvest",
-        description: "Harvest main honey crop before treating for varroa.",
-        difficulty: "intermediate",
-        timeEstimate: "1-2 hours per hive plus extraction time",
-        tips: [
-          "Leave adequate honey for winter (60-80 lbs for Midwest)",
-          "Extract promptly after harvesting",
-          "Return wet supers late in evening to prevent robbing",
-        ],
-      },
-      {
-        title: "Varroa Treatment",
-        description: "Apply varroa treatments after honey harvest.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per hive, plus follow-up",
-        tips: [
-          "Follow treatment instructions precisely",
-          "Consider temperature ranges for effective treatment",
-          "Plan for follow-up monitoring to assess effectiveness",
-        ],
-      },
-      {
-        title: "Fall Feeding Preparation",
-        description: "Begin assessing winter stores and preparing for fall feeding.",
-        difficulty: "beginner",
-        timeEstimate: "30 minutes per hive",
-        tips: [
-          "Weigh hives or estimate stores by frame count",
-          "Prepare 2:1 sugar syrup for fall feeding",
-          "Consider protein supplements if fall pollen is scarce",
-        ],
-      },
-      {
-        title: "Advanced Varroa Treatment Rotation",
-        description: "Implement a strategic rotation of varroa treatments to prevent resistance.",
-        difficulty: "intermediate",
-        timeEstimate: "1 hour research, plus treatment time",
-        tips: [
-          "Alternate between different treatment mechanisms of action",
-          "Consider both synthetic and organic treatment options",
-          "Document effectiveness with before and after mite counts",
-        ],
-      },
-    ],
-    september: [
-      {
-        title: "Fall Feeding",
-        description: "Feed 2:1 sugar syrup to ensure adequate winter stores.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per hive, weekly",
-        tips: [
-          "Feed consistently until target weight is reached",
-          "Use frame feeders or top feeders for large volumes",
-          "Reduce entrance size to prevent robbing",
-        ],
-      },
-      {
-        title: "Post-Treatment Mite Check",
-        description: "Conduct follow-up mite testing to verify treatment efficacy.",
-        difficulty: "intermediate",
-        timeEstimate: "30 minutes per apiary",
-        tips: [
-          "Allow sufficient time after treatment completion",
-          "Consider secondary treatment if counts remain high",
-          "Document results for future reference",
-        ],
-      },
-      {
-        title: "Combine Weak Colonies",
-        description: "Evaluate colony strength and combine weak colonies if necessary.",
-        difficulty: "intermediate",
-        timeEstimate: "1 hour per combination",
-        tips: [
-          "Use newspaper method for combining",
-          "Ensure the stronger queen is preserved",
-          "Verify colonies are disease-free before combining",
-        ],
-      },
-      {
-        title: "Winter Apiary Configuration",
-        description: "Reconfigure apiary layout for optimal winter survival.",
-        difficulty: "intermediate",
-        timeEstimate: "2-3 hours per apiary",
-        tips: [
-          "Position hives to maximize winter sun exposure",
-          "Create windbreaks on north and west sides",
-          "Consider grouping hives in clusters of 2-4 for shared warmth",
-        ],
-      },
-    ],
-    october: [
-      {
-        title: "Final Winter Preparations",
-        description: "Complete winter preparations before consistent cold weather.",
-        difficulty: "beginner",
-        timeEstimate: "1 hour per hive",
-        tips: [
-          "Install mouse guards/entrance reducers",
-          "Ensure adequate ventilation while reducing drafts",
-          "Consider insulation or winter wraps for extreme cold regions",
-        ],
-      },
-      {
-        title: "Last Inspections",
-        description: "Conduct final brief inspections on warm days.",
-        difficulty: "beginner",
-        timeEstimate: "15 minutes per hive",
-        tips: [
-          "Verify queen presence one last time",
-          "Ensure honey frames are positioned near the cluster",
-          "Remove any unnecessary equipment",
-        ],
-      },
-      {
-        title: "Equipment Storage",
-        description: "Clean and properly store unused equipment.",
-        difficulty: "beginner",
-        timeEstimate: "2-3 hours",
-        tips: [
-          "Freeze drawn comb for 48 hours to kill wax moth eggs",
-          "Store boxes with paradichlorobenzene crystals or in cold areas",
-          "Repair damaged equipment during off-season",
-        ],
-      },
-      {
-        title: "Advanced Winter Insulation",
-        description: "Implement advanced insulation techniques for Midwest winters.",
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
         difficulty: "intermediate",
         timeEstimate: "45 minutes per hive",
         tips: [
-          "Consider using foam insulation boards on hive sides",
-          "Create custom moisture quilt boxes for upper insulation",
-          "Ensure proper ventilation while maximizing heat retention",
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (80-100 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for long winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
         ],
       },
     ],
     november: [
       {
-        title: "Hive Winterizing",
-        description: "Apply winter wraps, windbreaks, and final winter preparations.",
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
         difficulty: "beginner",
-        timeEstimate: "30 minutes per hive",
+        timeEstimate: "30 minutes per apiary",
         tips: [
-          "Ensure upper ventilation to prevent condensation",
-          "Secure hives against winter winds",
-          "Consider using moisture boards or quilt boxes",
-        ],
-      },
-      {
-        title: "Equipment Maintenance",
-        description: "Clean, repair, and maintain equipment during the off-season.",
-        difficulty: "beginner",
-        timeEstimate: "Ongoing",
-        tips: [
-          "Clean propolis from frames and boxes",
-          "Repair or replace damaged equipment",
-          "Organize supplies for next season",
-        ],
-      },
-      {
-        title: "Equipment Modification & Innovation",
-        description: "Modify equipment based on seasonal observations and experiment with innovations.",
-        difficulty: "intermediate",
-        timeEstimate: "Varies by project",
-        tips: [
-          "Consider building custom ventilation systems based on moisture issues observed",
-          "Modify entrance reducers or create custom mouse guards",
-          "Document modifications and their effectiveness for future reference",
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
         ],
       },
     ],
     december: [
       {
-        title: "Periodic Hive Checks",
-        description: "Conduct external hive checks after storms or extreme weather.",
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during deep winter.",
         difficulty: "beginner",
         timeEstimate: "15 minutes per apiary",
         tips: [
-          "Clear snow from entrances but don't remove insulation",
-          "Listen briefly for buzzing to confirm colony is alive",
-          "Check for signs of rodent or woodpecker damage",
-        ],
-      },
-      {
-        title: "Education & Planning",
-        description: "Study, attend workshops, and plan for next season.",
-        difficulty: "beginner",
-        timeEstimate: "Ongoing",
-        tips: [
-          "Review notes from the past season",
-          "Order catalogs and plan equipment needs",
-          "Consider trying new techniques or equipment next year",
-        ],
-      },
-      {
-        title: "Record Keeping",
-        description: "Update records and evaluate the past season's performance.",
-        difficulty: "beginner",
-        timeEstimate: "2-3 hours",
-        tips: [
-          "Document honey yields, treatments, and colony performance",
-          "Plan improvements for next season",
-          "Set goals for the coming year",
-        ],
-      },
-      {
-        title: "Mead Making",
-        description: "Use honey to create mead (honey wine) during the off-season.",
-        difficulty: "intermediate",
-        timeEstimate: "3-4 hours initial setup, then monitoring",
-        tips: [
-          "Start with a simple recipe using quality honey and wine yeast",
-          "Sanitize all equipment thoroughly to prevent contamination",
-          "Keep detailed records of recipe, process, and results for future batches",
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
         ],
       },
     ],
   },
-}
+  "3b": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 20°F (-7°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+      {
+        title: "Equipment Preparation",
+        description: "Prepare equipment for spring while bees are dormant.",
+        difficulty: "beginner",
+        timeEstimate: "2-3 hours per week",
+        tips: [
+          "Clean and repair equipment in heated space",
+          "Order replacement parts early",
+          "Build new equipment if needed",
+          "Plan for late spring start (May-June)",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 25°F (-4°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for late spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for May-June delivery",
+          "Plan for short but intense season",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 40°F (4°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April-May first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "Pre-Spring Preparation",
+        description: "Prepare for late spring start.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours per apiary",
+        tips: [
+          "Clean bottom boards",
+          "Remove winter wraps gradually",
+          "Prepare feeding equipment",
+          "Monitor for late frosts",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (80-100 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for long winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during deep winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+  },
+  "4a": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 25°F (-4°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+      {
+        title: "Equipment Preparation",
+        description: "Prepare equipment for spring while bees are dormant.",
+        difficulty: "beginner",
+        timeEstimate: "2-3 hours per week",
+        tips: [
+          "Clean and repair equipment in heated space",
+          "Order replacement parts early",
+          "Build new equipment if needed",
+          "Plan for mid-spring start (April-May)",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 25°F (-4°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "4b": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 25°F (-4°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 25°F (-4°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "5a": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "5b": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "6a": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "6b": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "7a": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "7b": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "8a": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "8b": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "9a": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "9b": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "10a": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "10b": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "11a": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "11b": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "12a": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "12b": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "13a": {
+    january: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+  "13b": {
+    january: [
+      {
+        title: "Year-Round Management",
+        description: "Bees remain active year-round in tropical climate.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor for year-round brood production",
+          "Check for continuous honey flow",
+          "Manage varroa mites year-round",
+          "Plan for multiple honey harvests",
+        ],
+      },
+    ],
+    february: [
+      {
+        title: "Emergency Feeding Check",
+        description: "Monitor food stores during coldest period.",
+        difficulty: "beginner",
+        timeEstimate: "20 minutes per hive",
+        tips: [
+          "Check only on days above 30°F (-1°C)",
+          "Use fondant or winter patties if needed",
+          "Avoid liquid feeding in extreme cold",
+          "Monitor for starvation signs",
+        ],
+      },
+      {
+        title: "Order Bees & Supplies",
+        description: "Order bees for mid-spring arrival.",
+        difficulty: "beginner",
+        timeEstimate: "1-2 hours",
+        tips: [
+          "Order packages/nucs for April-May delivery",
+          "Plan for moderate season length",
+          "Order extra honey supers",
+          "Consider local suppliers for hardier stock",
+        ],
+      },
+    ],
+    march: [
+      {
+        title: "Late Winter Assessment",
+        description: "Check colony survival as temperatures begin to warm.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Wait for consistent 45°F (7°C) temperatures",
+          "Check for live bees and food stores",
+          "Begin feeding if stores are low",
+          "Plan for April first inspection",
+        ],
+      },
+    ],
+    april: [
+      {
+        title: "First Spring Inspection",
+        description: "Begin active beekeeping season.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Check for queen and brood",
+          "Assess food stores",
+          "Begin stimulative feeding",
+          "Add second brood box if needed",
+        ],
+      },
+      {
+        title: "Install New Bees",
+        description: "Install packages or nucs.",
+        difficulty: "beginner",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Install on warm, calm days",
+          "Provide immediate feeding",
+          "Check for queen acceptance",
+          "Monitor for 7-10 days",
+        ],
+      },
+    ],
+    may: [
+      {
+        title: "Colony Building",
+        description: "Support rapid colony development.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Monitor brood pattern",
+          "Add honey supers early",
+          "Check for queen cells",
+          "Begin swarm prevention",
+        ],
+      },
+    ],
+    june: [
+      {
+        title: "Peak Season Management",
+        description: "Manage honey production and prevent swarming.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Add supers as needed",
+          "Check for queen cells weekly",
+          "Monitor honey flow",
+          "Consider making splits",
+        ],
+      },
+    ],
+    july: [
+      {
+        title: "Honey Harvest Preparation",
+        description: "Prepare for harvest and winter preparation.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Harvest honey when capped",
+          "Leave adequate stores (70-90 lbs)",
+          "Treat for varroa mites",
+          "Begin winter preparation",
+        ],
+      },
+    ],
+    august: [
+      {
+        title: "Winter Preparation",
+        description: "Prepare colonies for winter.",
+        difficulty: "intermediate",
+        timeEstimate: "1 hour per hive",
+        tips: [
+          "Ensure adequate honey stores",
+          "Reduce hive entrances",
+          "Add mouse guards",
+          "Check queen status",
+        ],
+      },
+    ],
+    september: [
+      {
+        title: "Final Winter Prep",
+        description: "Complete winter preparations.",
+        difficulty: "intermediate",
+        timeEstimate: "45 minutes per hive",
+        tips: [
+          "Remove excess supers",
+          "Add insulation if needed",
+          "Secure hives from wind",
+          "Final varroa treatment",
+        ],
+      },
+    ],
+    october: [
+      {
+        title: "Winter Setup",
+        description: "Complete winter setup and monitoring.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per apiary",
+        tips: [
+          "Check hive weight",
+          "Listen for buzzing",
+          "Clear entrances of debris",
+          "Monitor for mice",
+        ],
+      },
+    ],
+    november: [
+      {
+        title: "Winter Monitoring",
+        description: "Minimal monitoring during winter.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Check only on warm days",
+          "Listen for colony activity",
+          "Clear snow from entrances",
+          "Plan for spring",
+        ],
+      },
+    ],
+    december: [
+      {
+        title: "Deep Winter Management",
+        description: "Bees are in tight cluster. Minimal disturbance required.",
+        difficulty: "beginner",
+        timeEstimate: "15 minutes per apiary",
+        tips: [
+          "Only check on days above 30°F (-1°C)",
+          "Listen for buzzing without opening hive",
+          "Clear snow from entrances",
+          "Check hive weight by lifting back corner",
+        ],
+      },
+    ],
+  },
+};

@@ -13,9 +13,19 @@ interface Task {
 
 interface TaskCardProps {
   task: Task
+  month?: string
 }
 
-export function TaskCard({ task }: TaskCardProps) {
+function isWeatherDependentMonth(month: string): boolean {
+  // Spring and fall months where weather can be unpredictable
+  const weatherDependentMonths = [
+    "march", "april", "may",    // Spring
+    "september", "october", "november"  // Fall
+  ]
+  return weatherDependentMonths.includes(month)
+}
+
+export function TaskCard({ task, month }: TaskCardProps) {
   const difficultyColor = {
     beginner: "bg-green-100 text-green-800",
     intermediate: "bg-amber-100 text-amber-800",
@@ -55,24 +65,26 @@ export function TaskCard({ task }: TaskCardProps) {
           </div>
         )}
       </CardContent>
-      <CardFooter>
-        <TooltipProvider>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <div className="flex items-center text-xs text-muted-foreground cursor-help">
-                <AlertCircle className="h-3 w-3 mr-1" />
-                <span>Weather dependent</span>
-              </div>
-            </TooltipTrigger>
-            <TooltipContent>
-              <p className="max-w-xs text-xs">
-                This task may need to be adjusted based on your local weather conditions. Always prioritize bee and
-                beekeeper safety.
-              </p>
-            </TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
-      </CardFooter>
+      {month && isWeatherDependentMonth(month) && (
+        <CardFooter>
+          <TooltipProvider>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <div className="flex items-center text-xs text-muted-foreground cursor-help">
+                  <AlertCircle className="h-3 w-3 mr-1" />
+                  <span>Weather dependent</span>
+                </div>
+              </TooltipTrigger>
+              <TooltipContent>
+                <p className="max-w-xs text-xs">
+                  This task may need to be adjusted based on your local weather conditions. Always prioritize bee and
+                  beekeeper safety.
+                </p>
+              </TooltipContent>
+            </Tooltip>
+          </TooltipProvider>
+        </CardFooter>
+      )}
     </Card>
   )
 }
