@@ -2,10 +2,11 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { ArrowLeft, CalendarIcon } from "lucide-react"
+import { ArrowLeft, CalendarIcon, CheckCircle } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Alert, AlertDescription } from "@/components/ui/alert"
 
 import { beekeepingData } from "@/lib/beekeeping-data"
 import { regions } from "@/lib/regions"
@@ -87,6 +88,15 @@ export default function CalendarPage() {
                 </Select>
               </CardContent>
             </Card>
+
+            {selectedRegion && (
+              <Alert>
+                <CheckCircle className="h-4 w-4" />
+                <AlertDescription>
+                  <strong>Pro Tip:</strong> Beginners should focus on tasks marked with green bubbles (beginner level) until they feel comfortable and experienced. Intermediate beekeepers should complete both yellow (intermediate) and green (beginner) tasks, as the beginner tasks are essential foundation work that even experienced beekeepers need to perform regularly.
+                </AlertDescription>
+              </Alert>
+            )}
 
             {selectedRegion && (
               <div className="space-y-6">
