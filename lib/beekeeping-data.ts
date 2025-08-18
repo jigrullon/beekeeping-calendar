@@ -354,10 +354,23 @@ export const beekeepingData = {
         timeEstimate: "30 minutes per hive",
         tips: [
           "Monitor brood pattern",
-          "Add honey supers early",
+          "Check for drawn out comb",
           "Check for queen cells",
           "Begin swarm prevention",
           "Assess colony strength",
+        ],
+      },
+      {
+        title: "Essential Maintenance",
+        description: "Perform routine maintenance and monitoring tasks.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Add honey supers early",
+          "Check for varroa mites",
+          "Monitor for small hive beetles",
+          "Ensure adequate water source",
+          "Check hive ventilation",
         ],
       },
       {
@@ -369,7 +382,7 @@ export const beekeepingData = {
           "Test for varroa mites monthly",
           "Implement treatment rotation",
           "Monitor treatment effectiveness",
-          "Plan for fall treatment",
+          "Create your for fall treatment plan in advance",
           "Document mite levels",
         ],
       },
@@ -411,7 +424,7 @@ export const beekeepingData = {
         tips: [
           "Harvest honey when capped",
           "Leave adequate stores (80-100 lbs)",
-          "Begin winter preparation",
+          "Treat for mites after harvest",
           "Assess colony strength",
           "Check queen status",
         ],
@@ -424,7 +437,7 @@ export const beekeepingData = {
         tips: [
           "Treat for varroa mites",
           "Test treatment effectiveness",
-          "Plan winter treatment schedule",
+          "Create your winter treatment schedule in advance",
           "Document treatment history",
           "Monitor for resistance",
         ],
@@ -693,10 +706,23 @@ export const beekeepingData = {
         timeEstimate: "30 minutes per hive",
         tips: [
           "Monitor brood pattern",
-          "Add honey supers early",
+          "Check for drawn out comb",
           "Check for queen cells",
           "Begin swarm prevention",
           "Assess colony strength",
+        ],
+      },
+      {
+        title: "Essential Maintenance",
+        description: "Perform routine maintenance and monitoring tasks.",
+        difficulty: "beginner",
+        timeEstimate: "30 minutes per hive",
+        tips: [
+          "Add honey supers early",
+          "Check for varroa mites",
+          "Monitor for small hive beetles",
+          "Ensure adequate water source",
+          "Check hive ventilation",
         ],
       },
       {
