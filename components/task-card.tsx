@@ -17,12 +17,29 @@ interface TaskCardProps {
 }
 
 function isWeatherDependentMonth(month: string): boolean {
-  // Spring and fall months where weather can be unpredictable
+  // Late fall and winter months where weather can be variable
   const weatherDependentMonths = [
-    "march", "april", "may",    // Spring
-    "september", "october", "november"  // Fall
+    "november", "december", "january", "february"  // Late Fall and Winter
   ]
   return weatherDependentMonths.includes(month)
+}
+
+function isWeatherDependentTask(task: Task): boolean {
+  // Tasks that are not weather dependent (can be done indoors or regardless of weather)
+  const nonWeatherDependentKeywords = [
+    "equipment", "preparation", "clean", "repair", "order", "build", "plan", "document"
+  ]
+  
+  const taskText = `${task.title} ${task.description}`.toLowerCase()
+  
+  // Check if task contains non-weather-dependent keywords
+  for (const keyword of nonWeatherDependentKeywords) {
+    if (taskText.includes(keyword)) {
+      return false
+    }
+  }
+  
+  return true
 }
 
 export function TaskCard({ task, month }: TaskCardProps) {
@@ -65,7 +82,7 @@ export function TaskCard({ task, month }: TaskCardProps) {
           </div>
         )}
       </CardContent>
-      {month && isWeatherDependentMonth(month) && (
+      {month && isWeatherDependentMonth(month) && isWeatherDependentTask(task) && (
         <CardFooter>
           <TooltipProvider>
             <Tooltip>
