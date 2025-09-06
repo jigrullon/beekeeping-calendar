@@ -89,7 +89,7 @@ export const beekeepingData = {
         tips: [
           "Check for queen and brood",
           "Assess food stores",
-          "Begin stimulative feeding",
+          "Begin stimulative feeding (pollen patties, thin syrup, etc.)",
           "Add second brood box if needed",
         ],
       },
@@ -327,7 +327,7 @@ export const beekeepingData = {
         tips: [
           "Check for queen and brood",
           "Assess food stores",
-          "Begin stimulative feeding",
+          "Begin stimulative feeding (pollen patties, thin syrup, etc.)",
           "Add second brood box if needed",
           "Begin varroa monitoring",
         ],
@@ -1140,7 +1140,7 @@ export const beekeepingData = {
         tips: [
           "Check for queen and brood production - queens may be laying heavily",
           "Add honey supers early as spring flows begin",
-          "Begin stimulative feeding if needed for colony building",
+          "Begin stimulative feeding if needed for colony building (pollen patties, thin syrup, etc.)",
           "Monitor for swarm preparations - early swarms possible",
           "Check for varroa mite levels",
         ],
