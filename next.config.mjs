@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   basePath: process.env.NODE_ENV === 'production' ? '/beek' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/beek' : '',
+  //assetPrefix: process.env.NODE_ENV === 'production' ? '/beek' : '',
   trailingSlash: true,
   images: {
     unoptimized: true
