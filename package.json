@@ -6,6 +6,8 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
+    "build:clean": "rm -rf .next out && npm run build:prod",
+    "build:prod": "NODE_ENV=production next build",
     "start": "next start"
   },
   "dependencies": {
