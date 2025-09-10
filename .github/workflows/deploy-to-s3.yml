@@ -1,0 +1,33 @@
+name: Deploy to S3
+
+on:
+  push:
+    branches:
+      - main 
+
+permissions:
+  id-token: write
+  contents: read  
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::583235017305:role/GithubActions_Portfolio
+          aws-region: us-east-1
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build static site
+        run: npm run build && npm run export
+
+      - name: Sync build to S3
+        run: aws s3 sync ./out s3://jaimegrullon.com/beek/ --delete
