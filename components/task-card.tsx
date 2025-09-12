@@ -27,7 +27,7 @@ function isWeatherDependentMonth(month: string): boolean {
 function isWeatherDependentTask(task: Task): boolean {
   // Tasks that are not weather dependent (can be done indoors or regardless of weather)
   const nonWeatherDependentKeywords = [
-    "equipment", "preparation", "clean", "repair", "order", "build", "plan", "document"
+    "equipment", "preparation", "clean", "repair", "order", "build", "plan", "document", "coming soon"
   ]
   
   const taskText = `${task.title} ${task.description}`.toLowerCase()
