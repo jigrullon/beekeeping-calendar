@@ -40,42 +40,42 @@ export default function ResourcesPage() {
                     title="Beekeeping For Dummies"
                     description="By Howland Blackiston"
                     content="A comprehensive guide for beginners covering all aspects of beekeeping."
-                    link="https://example.com/book1"
+                    link="https://www.amazon.com/dp/1119702585"
                   />
                   <ResourceCard
                     icon={<BookOpen className="h-8 w-8 text-amber-600" />}
                     title="The Beekeeper's Bible"
                     description="By Richard Jones & Sharon Sweeney-Lynch"
                     content="A comprehensive guide to beekeeping history, practices, and honey recipes."
-                    link="https://example.com/book2"
+                    link="https://www.amazon.com/Beekeepers-Bible-Honey-Recipes-Other/dp/1584799188"
                   />
                   <ResourceCard
                     icon={<BookOpen className="h-8 w-8 text-amber-600" />}
                     title="The Backyard Beekeeper"
                     description="By Kim Flottum"
                     content="An absolute beginner's guide to keeping bees in your yard and garden."
-                    link="https://example.com/book3"
+                    link="https://www.amazon.com/Backyard-Beekeeper-5th-Absolute-Beginners/dp/0760385823"
                   />
                   <ResourceCard
                     icon={<BookOpen className="h-8 w-8 text-amber-600" />}
                     title="Natural Beekeeping"
                     description="By Ross Conrad"
                     content="Organic approaches to modern apiculture with focus on sustainable practices."
-                    link="https://example.com/book4"
+                    link="https://www.amazon.com/Natural-Beekeeping-Organic-Approaches-Apiculture/dp/1603583629"
                   />
                   <ResourceCard
                     icon={<BookOpen className="h-8 w-8 text-amber-600" />}
                     title="The Bee Book"
                     description="By DK Publishing"
                     content="A visual guide to apiculture with step-by-step illustrations."
-                    link="https://example.com/book5"
+                    link="https://www.amazon.com/Bee-Book-Discover-Protect-Generations/dp/1465443835"
                   />
                   <ResourceCard
                     icon={<BookOpen className="h-8 w-8 text-amber-600" />}
                     title="First Lessons in Beekeeping"
                     description="By Keith Delaplane"
                     content="A beginner-friendly introduction to beekeeping fundamentals."
-                    link="https://example.com/book6"
+                    link="https://www.amazon.com/First-Lessons-Beekeeping-Keith-Delaplane/dp/0915698129"
                   />
                 </div>
               </TabsContent>
@@ -87,28 +87,42 @@ export default function ResourcesPage() {
                     title="University of Guelph Beekeeping Videos"
                     description="Educational Series"
                     content="Comprehensive video series covering all aspects of beekeeping for beginners."
-                    link="https://example.com/video1"
+                    link="https://www.youtube.com/@UoGHoneyBeeResearchCentre"
                   />
                   <ResourceCard
                     icon={<Video className="h-8 w-8 text-amber-600" />}
                     title="National Honey Show Lectures"
                     description="Expert Presentations"
                     content="Recorded lectures from beekeeping experts at the National Honey Show."
-                    link="https://example.com/video2"
+                    link="https://www.youtube.com/@NationalHoneyShowUK"
                   />
                   <ResourceCard
                     icon={<Video className="h-8 w-8 text-amber-600" />}
-                    title="628 Dirt Rooster"
+                    title="Bob Binnie"
                     description="YouTube Channel"
                     content="Practical beekeeping videos with focus on beginner-friendly techniques."
-                    link="https://example.com/video3"
+                    link="https://www.youtube.com/@bobbinnie9872"
                   />
                   <ResourceCard
                     icon={<Video className="h-8 w-8 text-amber-600" />}
                     title="University of Minnesota Bee Lab"
                     description="Educational Videos"
                     content="Research-based beekeeping videos from leading bee researchers."
-                    link="https://example.com/video4"
+                    link="https://www.youtube.com/c/UMNBeelab"
+                  />
+                  <ResourceCard
+                    icon={<Video className="h-8 w-8 text-amber-600" />}
+                    title="Kamon Reynolds - Tennessee's Bees"
+                    description="Educational Videos"
+                    content="Giving beekeepers quality information, techniques, and exploring new beekeeping styles & equipment."
+                    link="https://www.youtube.com/@kamonreynolds"
+                  />
+                  <ResourceCard
+                    icon={<Video className="h-8 w-8 text-amber-600" />}
+                    title="University of Georgia Beekeeping"
+                    description="Educational Videos"
+                    content="Intro beekeeping videos from the University of Georgia."
+                    link="https://www.youtube.com/playlist?list=PLF8AB243B9686421B"
                   />
                 </div>
               </TabsContent>
@@ -120,21 +134,21 @@ export default function ResourcesPage() {
                     title="American Beekeeping Federation"
                     description="National Organization"
                     content="National organization supporting beekeepers with resources and annual conferences."
-                    link="https://example.com/org1"
+                    link="https://www.abfnet.org/"
                   />
                   <ResourceCard
                     icon={<Users className="h-8 w-8 text-amber-600" />}
                     title="State Beekeeping Associations"
                     description="Local Support"
                     content="Find your state beekeeping association for local mentorship and resources."
-                    link="https://example.com/org2"
+                    link="https://americanbeejournal.com/tiposlinks/beekeeping-associations/"
                   />
                   <ResourceCard
                     icon={<Users className="h-8 w-8 text-amber-600" />}
                     title="Local Beekeeping Clubs"
                     description="Community Support"
                     content="Connect with beekeepers in your area for hands-on learning opportunities."
-                    link="https://example.com/org3"
+                    link="https://www.perfectbee.com/learn-about-bees/about-beekeeping/finding-beekeeping-clubs-and-mentors"
                   />
                 </div>
               </TabsContent>
@@ -146,21 +160,21 @@ export default function ResourcesPage() {
                     title="Penn State Extension Beekeeping 101"
                     description="Online Course"
                     content="Comprehensive online course for beginning beekeepers from a trusted institution."
-                    link="https://example.com/course1"
+                    link="https://extension.psu.edu/beekeeping-101"
                   />
                   <ResourceCard
                     icon={<GraduationCap className="h-8 w-8 text-amber-600" />}
                     title="Cornell University Master Beekeeper Program"
                     description="Certification Program"
                     content="Advanced beekeeping education for those looking to deepen their knowledge."
-                    link="https://example.com/course2"
+                    link="https://pollinator.cals.cornell.edu/beekeeping/master-beekeeper-program/"
                   />
                   <ResourceCard
                     icon={<GraduationCap className="h-8 w-8 text-amber-600" />}
                     title="University of Montana Online Beekeeping Certificate"
                     description="Certificate Program"
                     content="Structured online learning program with certificates upon completion."
-                    link="https://example.com/course3"
+                    link="https://www.umt.edu/bee/default.php"
                   />
                 </div>
               </TabsContent>
@@ -171,24 +185,24 @@ export default function ResourcesPage() {
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 <ResourceCard
                   icon={<FileText className="h-8 w-8 text-amber-600" />}
-                  title="USDA Beekeeping Guide"
-                  description="Government Resource"
-                  content="Official beekeeping guidelines and best practices from the USDA."
-                  link="https://example.com/guide1"
+                  title="Learning About Beekeeping"
+                  description="Free Resource from University of Purdue"
+                  content="Official beekeeping guidelines and best practices from the Purdue University extension."
+                    link="https://shop4-h.org/products/learning-about-beekeeping"
                 />
                 <ResourceCard
                   icon={<FileText className="h-8 w-8 text-amber-600" />}
                   title="Bee Health Coalition Resources"
                   description="Best Practices"
                   content="Evidence-based guides for maintaining healthy bee colonies."
-                  link="https://example.com/guide2"
+                    link="https://honeybeehealthcoalition.org/resource_category/best-management-practices/"
                 />
                 <ResourceCard
                   icon={<FileText className="h-8 w-8 text-amber-600" />}
-                  title="Seasonal Management Checklists"
+                  title="A Guide for Beginners"
                   description="Practical Tools"
-                  content="Downloadable checklists for seasonal beekeeping tasks."
-                  link="https://example.com/guide3"
+                  content="Beginner's guide to beekeeping from the Kentucky Department of Agriculture."
+                    link="https://www.kyagr.com/statevet/documents/OSV_Bee_Beginning-Beekeeping.pdf"
                 />
               </div>
             </div>
