@@ -397,7 +397,7 @@ export default function PlantingGuidePage() {
                     <CardHeader className="pb-3">
                     <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
-                          src="/goldenrod.jpg"
+                          src="/beek/goldenrod.jpg"
                           alt="Goldenrod flower"
                           width={128}
                           height={128}
@@ -432,7 +432,7 @@ export default function PlantingGuidePage() {
                     <CardHeader className="pb-3">
                     <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
-                          src="/aster.jpg"
+                          src="/beek/aster.jpg"
                           alt="Aster flower"
                           width={128}
                           height={128}
@@ -467,7 +467,7 @@ export default function PlantingGuidePage() {
                     <CardHeader className="pb-3">
                     <div className="aspect-square w-full rounded-lg bg-gradient-to-br from-yellow-200 to-yellow-400 flex items-center justify-center mb-3 overflow-hidden group relative">
                         <Image
-                          src="/sedum.jpg"
+                          src="/beek/sedum.jpg"
                           alt="Sedum flower"
                           width={128}
                           height={128}
