@@ -124,7 +124,7 @@ export default function GlossaryPage() {
                         <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none z-10">
                           <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                             <img 
-                              src="/bee-eggs.jpg" 
+                              src="/beek/bee-eggs.jpg" 
                               alt="Bee eggs in cells"
                               className="w-48 h-32 object-cover rounded"
                             />
@@ -148,7 +148,7 @@ export default function GlossaryPage() {
                         <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none z-10">
                           <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                             <img 
-                              src="/bee-larvae.jpg" 
+                              src="/beek/bee-larvae.jpg" 
                               alt="Bee larvae in cells"
                               className="w-48 h-32 object-cover rounded"
                             />
@@ -172,7 +172,7 @@ export default function GlossaryPage() {
                         <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none z-10">
                           <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-2">
                             <img 
-                              src="/bee-brood.jpg" 
+                              src="/beek/bee-brood.jpg" 
                               alt="Bee brood pattern"
                               className="w-48 h-32 object-cover rounded"
                             />
