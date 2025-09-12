@@ -45,7 +45,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/beek/beekeeper-2.jpg?height=400&width=600"
                   alt="Beekeeper working with hives"
                   width={600}
                   height={400}
@@ -72,11 +72,6 @@ export default function AboutPage() {
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold">For Beginners, By Beekeepers</h2>
-              <p className="text-muted-foreground">
-                Our team consists of experienced beekeepers from across the country who understand the challenges
-                beginners face. We've combined our knowledge and experience to create a resource that we wish we had
-                when we were starting out.
-              </p>
               <p className="text-muted-foreground">
                 The BeeKeeper Calendar is specifically designed for hobbyist beekeepers in their first 0-3 years, when
                 understanding the timing of beekeeping activities is most crucial for success.
