@@ -54,7 +54,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center">
                 <img
-                  src="/placeholder.svg?height=550&width=450"
+                  src="/beek/placeholder.svg?height=550&width=450"
                   alt="Beekeeper tending to hives"
                   width={550}
                   height={450}
