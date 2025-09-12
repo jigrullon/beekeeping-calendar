@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/beek' : '',
-  //assetPrefix: process.env.NODE_ENV === 'production' ? '/beek' : '',
+  basePath: '/beek',
+  assetPrefix: '/beek',
   trailingSlash: true,
   images: {
     unoptimized: true
