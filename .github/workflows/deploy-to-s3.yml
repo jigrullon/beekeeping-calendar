@@ -30,4 +30,4 @@ jobs:
         run: npm run build:clean
 
       - name: Sync build to S3
-        run: aws s3 sync ./out s3://jaimegrullon.com/beek/ --delete
+        run: aws s3 sync ./out/beek s3://jaimegrullon.com/beek/ --delete
